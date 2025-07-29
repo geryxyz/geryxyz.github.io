@@ -62,7 +62,7 @@ Az aktuális, egyetemi jogszabályok megismerése minden hallgató kötelessége
 
 ### Kommunikáció
 
-Az elsődleges kommunikáció a személyes / élőszavas konzultációs alkalmak. Másodlagos a levelezés és Skype.
+Az elsődleges kommunikáció a személyes / élőszavas konzultációs alkalmak. Másodlagos a levelezés és Discord.
     A levelek tárgyában mindenképp szerepeljen a <code>szakdolgozat</code> vagy a <code>diplomamunka</code> kifejezés.
     Leveleket csak <code>@stud.u-szeged.hu</code> vagy <code>@inf.u-szeged.hu</code> domain-ről és csak a <code>geryxyz@inf.u-szeged.hu</code> címre küldve fogadok el.
 
