@@ -75,3 +75,5 @@ All cases are drawn from my personal experience, and I do not claim that these a
 I also anonymized any identifying details to respect privacy.
 
 - [Case 1 — Guiding a Distracted Student While Recognizing Their Strengths](/teaching/mentor-metta/praxis/case-1)
+- [Case 2 — Navigating a Mentee's Resistance to Feedback](/teaching/mentor-metta/praxis/case-2)
+- [Case 3 — Viewing Student Mistakes as Communication Opportunities](/teaching/mentor-metta/praxis/case-3)
