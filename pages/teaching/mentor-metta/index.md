@@ -73,3 +73,5 @@ There is an AI generated podcast about this, which you can listen to here.
 Here I iterate some practical ways I implement the principles of the Mentor Metta in my teaching and mentorship.
 All cases are drawn from my personal experience, and I do not claim that these are universal truths.
 I also anonymized any identifying details to respect privacy.
+
+- [Case 1 — Guiding a Distracted Student While Recognizing Their Strengths](/teaching/mentor-metta/praxis/case-1)
