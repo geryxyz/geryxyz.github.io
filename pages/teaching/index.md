@@ -27,9 +27,9 @@ Az általános tudnivalókat és jelentkezési információkat az alábbi gombok
 [<i class="fa-solid fa-file-shield"></i><br/>How I write reviews?](/teaching/phd-students/how-i-write-reviews){: .btn .btn--large .btn--edge}
 </span>
 
-
 ## Érdeklődőknek
 
 <span class="center">
 [<i class="fa-solid fa-hands-holding-circle"></i><br/>Szakkörök](/teaching/study-groups){: .btn .btn--large .btn--edge}
+[<i class="fa-solid fa-seedling"></i><br/>Mentor Metta](/teaching/mentor-metta){: .btn .btn--large .btn--edge}
 </span>
