@@ -4,15 +4,8 @@ permalink: /teaching/graduating/applicant
 toc: true
 ---
 
-A végzéshez közeli hallgatók minden év januárjában és szeptemberében, minden hétfőn kereshetnek meg témajavaslataikkal. A témavezetésről a közös megbeszélés után (akár további átgondolást követően) születik döntés.
-
-## Időpont foglalás
-
-Az első megbeszélés minden esetben személyesen történik. Jelentkezni az alábbi felületen lehet.
-
-<!-- Google Calendar Appointment Scheduling begin -->
-<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0dPI_qK_7ACg8gtKr8Q-ZuoA9JyYfMNtmpbKJ7CsKsNmeaG6RhxtDGGjMxEpQOcyb_jZ5xiOLJ?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
-<!-- end Google Calendar Appointment Scheduling -->
+A végzéshez közeli hallgatók minden év januárjában és szeptemberében kereshetnek meg témajavaslataikkal. A témavezetésről a közös megbeszélés után (akár további átgondolást követően) születik döntés.
+Az első megbeszélés minden esetben személyesen történik.
 
 ## Helyszín
 
