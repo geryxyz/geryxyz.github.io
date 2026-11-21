@@ -1,0 +1,94 @@
+name: Build and deploy Quartz
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  # Quartz v5.1.0; pin the commit so upstream changes are deliberate.
+  QUARTZ_REF: 2ec28ddd04984d4827b5e1718a9d85f20eced38a
+
+jobs:
+  build:
+    name: Build Quartz
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Verify site content
+        run: |
+          if [ ! -s content/index.md ]; then
+            echo "::error::Add content/index.md before building the site."
+            exit 1
+          fi
+          test -s quartz.config.yaml
+
+      - name: Download pinned Quartz into temporary storage
+        run: |
+          mkdir -p "$RUNNER_TEMP/quartz"
+          curl --fail --location --retry 3 \
+            "https://codeload.github.com/jackyzha0/quartz/tar.gz/$QUARTZ_REF" \
+            --output "$RUNNER_TEMP/quartz.tar.gz"
+          tar -xzf "$RUNNER_TEMP/quartz.tar.gz" \
+            --strip-components=1 -C "$RUNNER_TEMP/quartz"
+          # Keep Quartz's Git tooling scoped to the disposable installation.
+          git -C "$RUNNER_TEMP/quartz" init --quiet
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          package-manager-cache: false
+
+      - name: Install dependencies
+        working-directory: ${{ runner.temp }}/quartz
+        run: npm ci
+
+      - name: Initialize temporary site
+        working-directory: ${{ runner.temp }}/quartz
+        run: |
+          cp "$GITHUB_WORKSPACE/quartz.config.yaml" quartz.config.yaml
+          npx --no-install quartz plugin install
+
+      - name: Build site
+        working-directory: ${{ runner.temp }}/quartz
+        run: npx --no-install quartz build --directory "$GITHUB_WORKSPACE/content"
+
+      - name: Verify homepage
+        run: test -s "$RUNNER_TEMP/quartz/public/index.html"
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/quartz/public
+
+  deploy:
+    name: Deploy to GitHub Pages
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy site
+        id: deployment
+        uses: actions/deploy-pages@v4

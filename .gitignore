@@ -1,0 +1,18 @@
+# Local build/dependency output (preview normally keeps these in OS temp).
+/node_modules/
+/.quartz/
+/public/
+/dist/
+/npm-debug.log*
+
+# Local editor and operating-system state.
+/.idea/
+/.vscode/
+**/.DS_Store
+**/Thumbs.db
+
+# Obsidian session state; keep shareable vault configuration trackable.
+/content/.obsidian/workspace.json
+/content/.obsidian/workspace-mobile.json
+/content/.obsidian/cache/
+/content/.trash/
