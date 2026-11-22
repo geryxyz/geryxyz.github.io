@@ -12,7 +12,7 @@ This is Gergő Balogh's public personal and professional website and a Markdown 
 
 ## Repository boundaries
 
-- `content/`: published Markdown and assets; open this directory as an Obsidian vault. `content/index.md` is the homepage.
+- `content/`: published Markdown and assets; open this directory as an Obsidian vault. `content/index.md` is the homepage. Internal note links use `[[vault-root/path|label]]`, rooted at `content/`, without a leading slash or `.md` extension; external links use standard Markdown.
 - `quartz.config.yaml`: persistent site settings shared by local preview and CI. Preserve the explicit theme block and enabled standard graph view unless a requested change requires otherwise. Analytics are currently disabled.
 - `.github/workflows/deploy.yml`: pinned Quartz revision and GitHub Pages workflow. PRs targeting `master` build only; pushes to `master` build and deploy. Manual runs deploy only on `master`.
 - `scripts/preview.ps1`: Windows PowerShell 5.1 preview/build helper. Keep compatibility with the built-in shell; do not require PowerShell 7.

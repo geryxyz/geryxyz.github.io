@@ -41,7 +41,7 @@ configuration:
     - .obsidian
     - .trash
   links:
-    markdownLinkResolution: shortest
+    markdownLinkResolution: absolute
   contentIndex:
     enableSiteMap: true
     enableRSS: false

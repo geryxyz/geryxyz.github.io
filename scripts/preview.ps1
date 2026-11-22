@@ -90,6 +90,7 @@ try {
     # Keep npm's download cache inside the disposable directory too.
     Write-Host 'Installing dependencies...'
     Invoke-NodeChecked -Arguments @($npmCli, 'ci', '--cache', (Join-Path $previewPath 'npm-cache'))
+    Invoke-NodeChecked -Arguments @((Join-Path $repoRoot 'scripts/patch-quartz.mjs'), $quartzPath)
     $cli = Join-Path $quartzPath 'quartz/bootstrap-cli.mjs'
     Write-Host 'Configuring the preview...'
     Copy-Item -LiteralPath $configPath -Destination (Join-Path $quartzPath 'quartz.config.yaml')
@@ -108,6 +109,7 @@ try {
             -not (Test-Path -LiteralPath (Join-Path $quartzPath 'public/assets/images/bio-photo.jpg'))) {
             throw 'Build is missing the site-wide profile component or its image asset.'
         }
+        Invoke-NodeChecked -Arguments @((Join-Path $repoRoot 'scripts/verify-graph.mjs'), $quartzPath)
         Write-Host 'Build verified successfully.'
     } else {
         Write-Host "Preview: http://localhost:$Port - press Ctrl+C to stop and clean up."

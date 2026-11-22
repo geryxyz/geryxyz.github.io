@@ -6,7 +6,7 @@ I'm Gergő (Gery) Balogh, PhD, a researcher, software engineer, and educator at 
 
 This is my personal and professional site: a place for my research, teaching, projects, and notes.
 
-[Artes Meae: Crafting My Path in Software Engineering and Academia](artes-meae/index.md) — my philosophy of education, software development, and research.
+[[artes-meae/artes-meae|Artes Meae: Crafting My Path in Software Engineering and Academia]] — my philosophy of education, software development, and research.
 
 These pages are plain Markdown, published with Quartz. You can also open the repository's `content` folder as a vault in Obsidian, or read and edit it with any text editor.
 

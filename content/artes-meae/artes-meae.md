@@ -12,9 +12,9 @@ This essay will explore these themes, illustrating the magical aspects of crafts
 
 ## The three arts
 
-- [Ars Paedagogiae: The Art of Education](ars-paedagogiae.md) — How mentoring and tacit knowledge shape learning.
-- [Ars Technica: The Philosophy of Software Development](ars-technica.md) — How craftsmanship connects technical quality with human needs.
-- [Ars Scientiae: The Methodologies of Research](ars-scientiae.md) — How curiosity, individual effort, and collaboration shape research.
+- [[artes-meae/ars-paedagogiae|Ars Paedagogiae: The Art of Education]] — How mentoring and tacit knowledge shape learning.
+- [[artes-meae/ars-technica|Ars Technica: The Philosophy of Software Development]] — How craftsmanship connects technical quality with human needs.
+- [[artes-meae/ars-scientiae|Ars Scientiae: The Methodologies of Research]] — How curiosity, individual effort, and collaboration shape research.
 
 ## Conclusion
 

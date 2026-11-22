@@ -26,6 +26,8 @@ To update Quartz, change `QUARTZ_REF` to a reviewed release commit and validate 
 
 ## Site settings
 
+Internal note links use Obsidian wikilinks with paths from the vault root (`content/`), for example `[[artes-meae/artes-meae|Artes Meae]]`. Omit the leading slash and `.md` extension; use `#heading` for sections and `|label` for display text. Quartz uses absolute link resolution to match this convention. External URLs and email links use standard Markdown. `scripts/patch-quartz.mjs` fixes a folder-index slug mismatch in the graph plugin bundled with the pinned Quartz revision. Preview and CI apply it only inside the temporary installation; it fails if the upstream code changes, so review or remove it when updating Quartz.
+
 `site/` holds the small site-owned profile component and layout extension. CI and preview copy these into the temporary Quartz installation. The portrait lives in `content/assets/images/bio-photo.jpg`, moved from the legacy site. It links home and appears above the site title on desktop, with a compact size on mobile.
 
 Edit `quartz.config.yaml` at the repository root for the site title, base URL, language, theme, link resolution, and enabled Quartz plugins. Both CI and local preview copy this same file into their temporary installation. The required theme settings are explicitly included from Quartz's standard theme; do not remove the theme block. Analytics are disabled.

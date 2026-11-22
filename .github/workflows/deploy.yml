@@ -58,6 +58,7 @@ jobs:
         working-directory: ${{ runner.temp }}/quartz
         run: |
           cp "$GITHUB_WORKSPACE/quartz.config.yaml" quartz.config.yaml
+          node "$GITHUB_WORKSPACE/scripts/patch-quartz.mjs" "$PWD"
           cp "$GITHUB_WORKSPACE/site/quartz.ts" quartz.ts
           cp "$GITHUB_WORKSPACE/site/Profile.tsx" quartz/components/Profile.tsx
           npx --no-install quartz plugin install
@@ -71,6 +72,7 @@ jobs:
           test -s "$RUNNER_TEMP/quartz/public/index.html"
           grep -q 'class="profile-photo internal"' "$RUNNER_TEMP/quartz/public/index.html"
           test -s "$RUNNER_TEMP/quartz/public/assets/images/bio-photo.jpg"
+          node "$GITHUB_WORKSPACE/scripts/verify-graph.mjs" "$RUNNER_TEMP/quartz"
 
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
