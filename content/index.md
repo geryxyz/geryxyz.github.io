@@ -8,4 +8,7 @@ This is my personal and professional site: a place for my research, teaching, pr
 
 These pages are plain Markdown, published with Quartz. You can also open the repository's `content` folder as a vault in Obsidian, or read and edit it with any text editor.
 
-[Email](mailto:geryxyz@inf.u-szeged.hu) · [GitHub](https://github.com/geryxyz) · [LinkedIn](https://www.linkedin.com/in/geryxyz/)
+You can find my personal and pet projects on [GitHub](https://github.com/geryxyz), and my scholarly publications on [Google Scholar](https://scholar.google.com/citations?user=Xh0bbbQAAAAJ).
+My [ORCID profile](https://orcid.org/0000-0002-6781-5453) provides additional research information.
+
+[Email me](mailto:geryxyz@inf.u-szeged.hu).
