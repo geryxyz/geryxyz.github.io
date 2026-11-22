@@ -10,7 +10,7 @@ Work from the repository root and follow `AGENTS.md`.
 ## Write and migrate
 
 1. Read the destination page and relevant legacy source before editing. For data-driven legacy pages, consult `_data/` and the Liquid includes as well as the page itself.
-2. Migrate only the requested topic or pages. Keep the legacy archive intact, and preserve user edits already made in `content/`.
+2. Migrate only the requested topic or pages. Move reused legacy files/assets to their new location so `legacy/` tracks remaining work. Preserve unmigrated portions of partially migrated documents and user edits already made in `content/`.
 3. Write readable Markdown under `content/`. Use simple YAML frontmatter for titles and other needed metadata. Prefer standard Markdown links and embeds; Obsidian wikilinks are appropriate when they help vault use. Do not require community plugins for ordinary content.
 4. Convert Jekyll/Liquid constructs into actual Markdown or a small, justified site feature. Do not copy unresolved Liquid tags into published pages. Bring over only assets used by the migrated content.
 5. Preserve English/Hungarian language choices, accents, names, and factual meaning. Treat legacy affiliations, dates, course information, and contact details as historical source material, not proof they remain current. Flag material uncertainty rather than inventing updates.

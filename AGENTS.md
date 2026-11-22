@@ -7,7 +7,7 @@ This is Gergő Balogh's public personal and professional website and a Markdown 
 - Prefer plain Markdown, vanilla Obsidian, and standard Quartz behavior. Keep content usable with a text editor and independent of the publishing engine.
 - Favor small, understandable custom helpers over additional frameworks. Add plugins only for a concrete need; prefer established, widely used plugins. Do not introduce dependencies merely to anticipate future features.
 - Keep public copy concise and personal. Preserve the author's language, names, accents, and meaning. Do not invent current biographical facts from old material.
-- Keep `legacy/` as the migration reference; do not edit, delete, or publish it as part of routine migration.
+- Treat `legacy/` as the remaining migration backlog. Move reused files/assets into their new location rather than leaving copies behind, so the directory shrinks as migration progresses. For partially migrated documents, retain the unmigrated material until it is handled. Do not publish `legacy/` or remove unrelated material.
 
 ## Repository boundaries
 
@@ -15,6 +15,7 @@ This is Gergő Balogh's public personal and professional website and a Markdown 
 - `quartz.config.yaml`: persistent site settings shared by local preview and CI. Preserve the explicit theme block and enabled standard graph view unless a requested change requires otherwise. Analytics are currently disabled.
 - `.github/workflows/deploy.yml`: pinned Quartz revision and GitHub Pages workflow. PRs targeting `master` build only; pushes to `master` build and deploy. Manual runs deploy only on `master`.
 - `scripts/preview.ps1`: Windows PowerShell 5.1 preview/build helper. Keep compatibility with the built-in shell; do not require PowerShell 7.
+- `site/`: small site-owned Quartz customizations copied into the temporary engine by CI and preview; not vendored engine source.
 - Keep Quartz source, dependencies, caches, and generated output outside this repository, in disposable temporary installations. Retain site-owned configuration here. Preserve Git ignores for local output and editor/session state.
 
 ## Working conventions

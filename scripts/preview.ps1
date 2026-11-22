@@ -93,12 +93,20 @@ try {
     $cli = Join-Path $quartzPath 'quartz/bootstrap-cli.mjs'
     Write-Host 'Configuring the preview...'
     Copy-Item -LiteralPath $configPath -Destination (Join-Path $quartzPath 'quartz.config.yaml')
+    Copy-Item -LiteralPath (Join-Path $repoRoot 'site/quartz.ts') -Destination (Join-Path $quartzPath 'quartz.ts')
+    Copy-Item -LiteralPath (Join-Path $repoRoot 'site/Profile.tsx') -Destination (Join-Path $quartzPath 'quartz/components/Profile.tsx')
     Invoke-NodeChecked -Arguments @($cli, 'plugin', 'install')
 
     if ($BuildOnly) {
         Invoke-NodeChecked -Arguments @($cli, 'build', '--directory', $contentPath)
         if (-not (Test-Path -LiteralPath (Join-Path $quartzPath 'public/index.html'))) {
             throw 'Build did not produce public/index.html.'
+        }
+        $homepage = Get-Content -LiteralPath (Join-Path $quartzPath 'public/index.html') -Raw
+        if ($homepage -notmatch 'class="profile-photo internal"' -or
+            $homepage -notmatch 'src="[^\"]*assets/images/bio-photo.jpg"' -or
+            -not (Test-Path -LiteralPath (Join-Path $quartzPath 'public/assets/images/bio-photo.jpg'))) {
+            throw 'Build is missing the site-wide profile component or its image asset.'
         }
         Write-Host 'Build verified successfully.'
     } else {

@@ -1,6 +1,6 @@
 # Personal website
 
-The previous Jekyll website is archived in `legacy/`. The new website uses Quartz 5 and GitHub Pages, with Quartz installed temporarily for CI and local previews.
+The remaining previous Jekyll website lives in `legacy/`. Reused files are moved out as migration progresses. The new website uses Quartz 5 and GitHub Pages, with Quartz installed temporarily for CI and local previews.
 
 ## Content
 
@@ -25,6 +25,8 @@ No dependency cache is retained by this workflow. The generated Pages artifact i
 To update Quartz, change `QUARTZ_REF` to a reviewed release commit and validate the build in a pull request.
 
 ## Site settings
+
+`site/` holds the small site-owned profile component and layout extension. CI and preview copy these into the temporary Quartz installation. The portrait lives in `content/assets/images/bio-photo.jpg`, moved from the legacy site. It links home and appears above the site title on desktop, with a compact size on mobile.
 
 Edit `quartz.config.yaml` at the repository root for the site title, base URL, language, theme, link resolution, and enabled Quartz plugins. Both CI and local preview copy this same file into their temporary installation. The required theme settings are explicitly included from Quartz's standard theme; do not remove the theme block. Analytics are disabled.
 
