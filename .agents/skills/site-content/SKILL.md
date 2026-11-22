@@ -16,6 +16,12 @@ Work from the repository root and follow `AGENTS.md`.
 5. Preserve English/Hungarian language choices, accents, names, and factual meaning. Treat legacy affiliations, dates, course information, and contact details as historical source material, not proof they remain current. Flag material uncertainty rather than inventing updates.
 6. Avoid links to not-yet-migrated local pages. When replacing a public page, inspect its former permalink and use Quartz aliases where appropriate to retain incoming links.
 
+## Shape notes and connections
+
+- Apply Zettelkasten principles flexibly: give each note one coherent idea and enough context to be understood on its own. Use descriptive titles; split a note when its ideas can usefully stand independently.
+- Link related notes where the connection helps the reader, explaining the relationship in the surrounding prose. Build on existing ideas rather than duplicating their explanations.
+- Use overview pages to connect notes into a broader argument or route through a topic. Let useful relationships emerge as the collection grows, without imposing fixed note lengths, IDs, templates, or plugins.
+
 ## Verify
 
 - Check local links, asset paths, frontmatter, and that the resulting Markdown is understandable without Quartz.

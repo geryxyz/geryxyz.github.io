@@ -5,6 +5,7 @@
 This is Gergő Balogh's public personal and professional website and a Markdown collection usable as an Obsidian vault. Rebuild and migrate gradually from the previous Jekyll site in `legacy/`.
 
 - Prefer plain Markdown, vanilla Obsidian, and standard Quartz behavior. Keep content usable with a text editor and independent of the publishing engine.
+- Follow Zettelkasten principles pragmatically: favor small, self-contained notes centered on one coherent idea, connected through meaningful links so the collection develops understanding beyond individual notes. Let the material determine note size and structure.
 - Favor small, understandable custom helpers over additional frameworks. Add plugins only for a concrete need; prefer established, widely used plugins. Do not introduce dependencies merely to anticipate future features.
 - Keep public copy concise and personal. Preserve the author's language, names, accents, and meaning. Do not invent current biographical facts from old material.
 - Treat `legacy/` as the remaining migration backlog. Move reused files/assets into their new location rather than leaving copies behind, so the directory shrinks as migration progresses. For partially migrated documents, retain the unmigrated material until it is handled. Do not publish `legacy/` or remove unrelated material.
