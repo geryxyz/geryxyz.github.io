@@ -14,3 +14,10 @@ if (source.split(before).length !== 2) {
 }
 writeFileSync(file, source.replace(before, after))
 console.log("Patched Quartz graph folder-note slug normalization.")
+
+// Temporary diagnosis of the pinned compiled bundle; remove before merging.
+for (const name of ["graph-visited", "contentIndex.json", "Stale render", "let e=_t(ft(u,\"index\"),!0)"]) {
+  const index = source.indexOf(name)
+  console.log("[GRAPH DEBUG]", name, index, index < 0 ? "" : source.slice(Math.max(0, index - 600), index + 600))
+}
+console.log("[GRAPH DEBUG] cu =", source.match(/function cu\\([^)]*\\)\\{[^{}]*\\}/)?.[0])
