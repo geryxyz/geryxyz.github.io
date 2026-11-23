@@ -18,5 +18,3 @@ publisher: "IEEE"
 unique_id: "37391812"
 url: "https://doi.org/10.1109/SANER-C67878.2026.00043"
 ---
-
-## Abstract

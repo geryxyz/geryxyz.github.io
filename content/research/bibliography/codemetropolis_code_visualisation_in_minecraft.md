@@ -7,7 +7,6 @@ authors:
 citation_key: "BaB13a"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original_preprint"
 booktitle: "Proceedings of the 13th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM'13), Tool Track"
 doi: "10.1109/scam.2013.6648194"
 location: "Eindhoven, Netherlands"
@@ -15,7 +14,6 @@ month: "September"
 pages: "136--141"
 publisher: "IEEE"
 url: "https://doi.org/10.1109/scam.2013.6648194"
-abstract_source: "uploaded preprint: BaB13a.pdf"
 ---
 
 ## Abstract

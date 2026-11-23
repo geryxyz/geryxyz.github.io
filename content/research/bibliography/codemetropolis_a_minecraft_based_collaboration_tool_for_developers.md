@@ -7,7 +7,6 @@ authors:
 citation_key: "BaB13b"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original_preprint"
 booktitle: "Proceedings of the 1st IEEE Working Conference on Software Visualization (VISSOFT'13), New Ideas or Emerging Results track"
 doi: "10.1109/vissoft.2013.6650528"
 location: "Eindhoven, Netherlands"
@@ -15,7 +14,6 @@ month: "September"
 pages: "1--4"
 publisher: "IEEE"
 url: "https://doi.org/10.1109/vissoft.2013.6650528"
-abstract_source: "uploaded preprint: BaB13b.pdf"
 ---
 
 ## Abstract

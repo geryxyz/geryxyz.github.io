@@ -8,7 +8,6 @@ authors:
 citation_key: "BSB15"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original_preprint"
 booktitle: "Proceedings of the 15th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM'15)"
 doi: "10.1109/scam.2015.7335425"
 location: "Bremen, Germany"
@@ -16,7 +15,6 @@ month: "September"
 pages: "271--276"
 publisher: "IEEE"
 url: "https://doi.org/10.1109/scam.2015.7335425"
-abstract_source: "uploaded preprint: BSB15.pdf"
 ---
 
 ## Abstract

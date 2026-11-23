@@ -11,10 +11,8 @@ authors:
 citation_key: "HGB19"
 publication_type: "misc"
 abstract_available: true
-abstract_kind: "original_preprint"
 howpublished: "Presented in the Journal First Track of the 26th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER'19)"
 month: "February"
-abstract_source: "uploaded preprint: HGB17_HGB19.pdf"
 ---
 
 ## Abstract
