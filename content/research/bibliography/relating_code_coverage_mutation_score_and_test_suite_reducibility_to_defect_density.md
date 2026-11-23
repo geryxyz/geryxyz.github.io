@@ -12,7 +12,6 @@ authors:
 citation_key: "TVB16"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original_preprint"
 booktitle: "Ninth IEEE International Conference on Software Testing, Verification and Validation Workshops, ICSTW 2016"
 doi: "10.1109/ICSTW.2016.25"
 location: "Chicago, IL, USA"
@@ -23,7 +22,6 @@ pages: "174--179"
 publisher: "IEEE"
 unique_id: "3109514"
 url: "https://doi.org/10.1109/ICSTW.2016.25"
-abstract_source: "uploaded preprint: TVB16.pdf"
 ---
 
 ## Abstract

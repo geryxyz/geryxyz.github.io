@@ -6,7 +6,6 @@ authors:
 citation_key: "MTMT:30981323"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original"
 booktitle: "2018 IEEE 11th International Conference on Software Testing, Verification and Validation, ICST 2018"
 doi: "10.1109/ICST.2018.00053"
 keywords: "VISUALIZATION; PRODUCTIVITY; Testing; Test coverage; test analyses; static analyses; dynamic analyses; process metric"

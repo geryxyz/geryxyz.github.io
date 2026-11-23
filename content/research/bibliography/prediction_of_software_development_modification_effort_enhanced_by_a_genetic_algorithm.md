@@ -8,13 +8,11 @@ authors:
 citation_key: "BVB12"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original_preprint"
 booktitle: "Fast Abstracts of the 4th Symposium on Search-Based Software Engineering (SSBSE'12)"
 isbn: "978-88-905389-9-5"
 location: "Riva del Garda, Trento, Italy"
 pages: "1--6"
 publisher: "Fondazione Bruno Kessler-Press, Trento, Italy"
-abstract_source: "uploaded preprint: BVB12.pdf"
 ---
 
 ## Abstract

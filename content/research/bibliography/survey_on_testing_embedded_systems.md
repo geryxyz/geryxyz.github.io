@@ -25,5 +25,3 @@ number: "TR-2013-001"
 type: "Technical Report"
 url: "https://cirene.sed.inf.szte.hu/sites/cirene.sed.inf.szte.hu/files/page_files/3.2-Survey-on-Testing-Embedded-Systems.pdf"
 ---
-
-## Abstract
