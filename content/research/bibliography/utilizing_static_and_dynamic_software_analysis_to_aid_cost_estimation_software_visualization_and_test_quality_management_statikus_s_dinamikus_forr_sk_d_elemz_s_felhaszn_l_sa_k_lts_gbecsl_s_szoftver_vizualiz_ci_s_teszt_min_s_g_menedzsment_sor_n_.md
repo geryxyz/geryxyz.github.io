@@ -14,5 +14,3 @@ school: "University of Szeged"
 unique_id: "31957856"
 url: "https://doi.org/10.14232/phd.10477"
 ---
-
-## Abstract

@@ -9,7 +9,6 @@ authors:
 citation_key: "BGB16a"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original_preprint"
 booktitle: "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)"
 doi: "10.1109/SANER.2016.48"
 location: "Osaka, Japan"
@@ -20,7 +19,6 @@ pages: "17--20"
 publisher: "IEEE"
 unique_id: "3111455"
 url: "https://doi.org/10.1109/SANER.2016.48"
-abstract_source: "uploaded preprint: BGB16a.pdf"
 ---
 
 ## Abstract
