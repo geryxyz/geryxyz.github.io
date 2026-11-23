@@ -28,3 +28,36 @@ for (const note of notes) {
   assert.ok(links(note).includes(normalize(overview)), `${note} must link back to the overview`)
 }
 console.log("Verified graph folder URLs and all homepage/Artes Meae overview connections.")
+
+
+// Ensure the actual graph's URL resolver uses Quartz's canonical page identity.
+assert.ok(plugin.includes('function u(){var a=document.body?.dataset?.slug;if(a)return a;var o=we(),i=Nu();'),
+  "Graph runtime must prefer body[data-slug] before using its browser-URL fallback")
+
+// Reproduce the local graph's node/edge selection from the published index.
+const normalizedLinks = new Map(Object.entries(index).map(([slug, details]) =>
+  [normalize(slug), (details.links ?? []).map(normalize).filter((dest) =>
+    Object.keys(index).some((key) => normalize(key) === dest))]))
+function assertNeighbours(folder, expected) {
+  const root = normalize(folder + "/index")
+  const neighbours = new Set()
+  for (const [source, destinations] of normalizedLinks) {
+    for (const target of destinations) {
+      if (source === root) neighbours.add(target)
+      if (target === root) neighbours.add(source)
+    }
+  }
+  for (const slug of expected) {
+    assert.ok(neighbours.has(normalize(slug)),
+      `Local graph for ${folder} missing ${slug}; found ${JSON.stringify([...neighbours])}`)
+  }
+}
+assertNeighbours("artes-meae", notes)
+assertNeighbours("research", [
+  "research/human_centered_software_engineering",
+  "research/software_analysis_and_quality_assurance",
+  "research/software_visualization_and_comprehension",
+  "research/software_security_and_ai_assisted_engineering",
+  "research/data_driven_software_engineering",
+])
+console.log("Verified local-graph runtime and Artes Meae/Research neighbourhoods.")
