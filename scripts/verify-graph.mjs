@@ -4,7 +4,16 @@ import { runInNewContext } from "node:vm"
 import assert from "node:assert/strict"
 
 const quartz = process.argv[2]
-const plugin = readFileSync(join(quartz, "node_modules/@quartz-community/graph/dist/index.js"), "utf8")
+const graphRoot = join(quartz, "node_modules/@quartz-community/graph")
+const plugin = readFileSync(join(graphRoot, "dist/index.js"), "utf8")
+const componentPlugin = readFileSync(join(graphRoot, "dist/components/index.js"), "utf8")
+for (const [name, source] of [["root", plugin], ["component", componentPlugin]]) {
+  assert.ok(source.includes('function u(){var a=document.body?.dataset?.slug;if(a)return a;var o=we(),i=Nu();'),
+    `Graph ${name} bundle must prefer Quartz canonical slugs`)
+  assert.ok(source.includes('let e=_t(ft(u,"index"),!1)'),
+    `Graph ${name} bundle must normalize folder indexes consistently`)
+}
+
 // Exercise the actual bundled normalizer, including its two helpers.
 const functions = ["cu", "Ft", "ft", "_t"].map((name) => {
   const match = plugin.match(new RegExp(`function ${name}\\([^)]*\\)\\{[^{}]*\\}`))

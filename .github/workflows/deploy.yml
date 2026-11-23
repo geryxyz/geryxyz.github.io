@@ -74,6 +74,12 @@ jobs:
           test -s "$RUNNER_TEMP/quartz/public/assets/images/bio-photo.jpg"
           node "$GITHUB_WORKSPACE/scripts/verify-graph.mjs" "$RUNNER_TEMP/quartz"
 
+      - name: Verify local graphs in headless Chrome
+        if: github.event_name == 'pull_request'
+        run: |
+          npm install --prefix "$RUNNER_TEMP/graph-browser" --no-save --no-package-lock --ignore-scripts playwright@1.56.1
+          node "$GITHUB_WORKSPACE/scripts/verify-graph-browser.mjs" "$RUNNER_TEMP/quartz/public" "$RUNNER_TEMP/graph-browser/node_modules/playwright"
+
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
         uses: actions/upload-pages-artifact@v3
