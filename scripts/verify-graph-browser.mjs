@@ -2,12 +2,35 @@ import assert from "node:assert/strict"
 import { spawn } from "node:child_process"
 import { join, resolve } from "node:path"
 import { get } from "node:http"
+import { readFileSync, writeFileSync, readdirSync } from "node:fs"
 import { pathToFileURL } from "node:url"
 
 const [publicArg, playwrightArg] = process.argv.slice(2)
 assert.ok(publicArg && playwrightArg, "Usage: verify-graph-browser.mjs PUBLIC_DIR PLAYWRIGHT_DIR")
 const publicDir = resolve(publicArg)
 const playwright = await import(pathToFileURL(join(resolve(playwrightArg), "index.mjs")).href)
+// Instrument only the temporary generated output used by this browser test,
+// not the installed Quartz package or any production artifact.
+const jsDir = join(publicDir, "static/scripts")
+let instrumented = 0
+for (const name of readdirSync(jsDir).filter((name) => name.endsWith(".js"))) {
+  const path = join(jsDir, name)
+  const content = readFileSync(path, "utf8")
+  if (!content.includes("forceSimulation(") || !content.includes("graph-container")) continue
+  const matcher = /\\.forceSimulation\\(([A-Za-z_$][\\w$]*)\\)/
+  const found = matcher.exec(content)
+  if (!found) {
+    const offset = content.indexOf("forceSimulation(")
+    throw new Error("Cannot instrument Graph simulation in " + name + ": " + content.slice(offset - 130, offset + 160))
+  }
+  const changed = content.replace(matcher, (_, id) =>
+    ".forceSimulation((window.__graphSimulationNodes.push(" + id + ".map(n=>n.id))," + id + "))")
+  writeFileSync(path, changed)
+  instrumented++
+}
+assert.ok(instrumented > 0, "No graph simulation was found in emitted browser scripts")
+console.log("Instrumented generated graph scripts:", instrumented)
+
 const port = 18765
 const server = spawn("python3", ["-m", "http.server", String(port), "--bind", "127.0.0.1", "--directory", publicDir], { stdio: "pipe" })
 let browser
