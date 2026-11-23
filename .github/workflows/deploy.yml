@@ -74,18 +74,6 @@ jobs:
           test -s "$RUNNER_TEMP/quartz/public/assets/images/bio-photo.jpg"
           node "$GITHUB_WORKSPACE/scripts/verify-graph.mjs" "$RUNNER_TEMP/quartz"
 
-      - name: Inspect installed versus emitted graph bundles
-        if: github.event_name == 'pull_request'
-        run: |
-          echo 'Installed graph package:'
-          find "$RUNNER_TEMP/quartz/node_modules/@quartz-community/graph/dist" -type f | head -30
-          echo 'Graph resolver locations in package:'
-          grep -RlnF 'function u(){var o=we(),i=Nu();' "$RUNNER_TEMP/quartz/node_modules/@quartz-community/graph/dist" || true
-          echo 'Patched marker locations in package and public site:'
-          grep -RlnF '[Graph debug state]' "$RUNNER_TEMP/quartz/node_modules/@quartz-community/graph/dist" "$RUNNER_TEMP/quartz/public" || true
-          echo 'Canonical resolver locations in emitted output:'
-          grep -RlnF 'document.body?.dataset?.slug;if(a)return a' "$RUNNER_TEMP/quartz/public" || true
-
       - name: Verify local graphs in headless Chrome
         if: github.event_name == 'pull_request'
         run: |

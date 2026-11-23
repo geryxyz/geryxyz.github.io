@@ -58,35 +58,16 @@ try {
   })
   const cases = [
     { path: "/artes-meae/", expected: ["artes-meae/ars-paedagogiae", "artes-meae/ars-technica", "artes-meae/ars-scientiae"] },
-    { path: "/research/", expected: ["research/human_centered_software_engineering", "research/software_analysis_and_quality_assurance", "research/software_visualization_and_comprehension"] },
+    { path: "/research/", expected: ["research/human_centered_software_engineering", "research/software_analysis_and_quality_assurance", "research/software_visualization_and_comprehension", "research/software_security_and_ai_assisted_engineering", "research/data_driven_software_engineering"] },
   ]
   for (const testCase of cases) {
     const page = await browser.newPage({ viewport: { width: 1600, height: 1000 } })
     const errors = []
-    const graphDebug = []
     page.on("pageerror", (error) => errors.push(error.message))
     page.on("console", (message) => {
       if (message.type() === "error") errors.push(message.text())
-      if (message.text().includes("[Graph debug state]")) graphDebug.push(message.text())
     })
-    await page.addInitScript(() => {
-      window.__graphSimulationNodes = []
-      let d3Value
-      Object.defineProperty(window, "d3", {
-        configurable: true,
-        get() { return d3Value },
-        set(lib) {
-          if (lib && typeof lib.forceSimulation === "function") {
-            const actualForceSimulation = lib.forceSimulation
-            lib.forceSimulation = function (nodes, ...args) {
-              window.__graphSimulationNodes.push(nodes.map((node) => node.id))
-              return actualForceSimulation.call(this, nodes, ...args)
-            }
-          }
-          d3Value = lib
-        },
-      })
-    })
+    await page.addInitScript(() => { window.__graphSimulationNodes = [] })
     await page.goto(base + testCase.path, { waitUntil: "domcontentloaded" })
     try {
       await page.waitForFunction(() => window.__graphSimulationNodes.length > 0, null, { timeout: 35000 })
@@ -97,7 +78,7 @@ try {
         canvasCount: document.querySelectorAll(".graph-container canvas").length,
         simulationNodes: window.__graphSimulationNodes,
       }))
-      throw new Error("Graph did not initialize for " + testCase.path + ": " + JSON.stringify({ diagnostic, errors, graphDebug }))
+      throw new Error("Graph did not initialize for " + testCase.path + ": " + JSON.stringify({ diagnostic, errors }))
     }
     const result = await page.evaluate(() => ({
       pageSlug: document.body.dataset.slug,
