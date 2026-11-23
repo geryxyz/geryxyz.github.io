@@ -6,9 +6,7 @@ authors:
   - "Soha, Péter Attila"
 citation_key: "MTMT:33035942"
 publication_type: "inproceedings"
-abstract_available: true
-abstract_kind: "editorial_summary"
-abstract_source: "https://icsoft.scitevents.org/Abstract.aspx?idEvent=Wf1UzosITcM%3D"
+abstract_available: false
 booktitle: "Proceedings of the 17th International Conference on Software Technologies"
 doi: "10.5220/0011317800003266"
 mtmt_url: "https://m2.mtmt.hu/api/publication/33035942"
@@ -20,7 +18,3 @@ url: "https://doi.org/10.5220/0011317800003266"
 ---
 
 ## Abstract
-
-The paper develops formal terminology for specifying user feedback, including relevant objects and actions. Interactive fault localization serves as a motivating application of this feedback representation.
-
-*Editorial summary based on the linked source, not the original publication abstract.*

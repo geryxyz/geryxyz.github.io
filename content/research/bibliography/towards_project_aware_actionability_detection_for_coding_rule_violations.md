@@ -7,7 +7,7 @@ authors:
 citation_key: "MTMT:37372988"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "bibliography"
+abstract_kind: "original"
 booktitle: "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering - Companion (SANER-C)"
 doi: "10.1109/SANER-C67878.2026.00040"
 keywords: "Project management; Learning systems; artificial intelligence; machine learning; Software engineering; COMPUTER PROGRAMMING; Codes (symbols); Engineering education; Computational efficiency; Analysis tools; Machine-learning; Active learning; Active learning; False positive; False positive; Static code analysis; Static code analysis; Coding rule; code quality; actionability; Labeled data; actionable; actionable; rule violation; rule violation"

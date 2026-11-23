@@ -11,9 +11,7 @@ authors:
   - "Gyimóthy, Tibor"
 citation_key: "TVB16"
 publication_type: "inproceedings"
-abstract_available: true
-abstract_kind: "editorial_summary"
-abstract_source: "https://publicatio.bibl.u-szeged.hu/10372/1/mutation2016-defectdensity.pdf"
+abstract_available: false
 booktitle: "Ninth IEEE International Conference on Software Testing, Verification and Validation Workshops, ICSTW 2016"
 doi: "10.1109/ICSTW.2016.25"
 location: "Chicago, IL, USA"
@@ -27,7 +25,3 @@ url: "https://doi.org/10.1109/ICSTW.2016.25"
 ---
 
 ## Abstract
-
-This study examines code coverage, mutation scores and test-suite reducibility as indicators of test adequacy, analyzing their relationships with defect density.
-
-*Editorial summary based on the linked source, not the original publication abstract.*

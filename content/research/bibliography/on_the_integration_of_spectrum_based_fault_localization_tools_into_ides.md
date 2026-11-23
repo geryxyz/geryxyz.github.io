@@ -10,7 +10,7 @@ authors:
 citation_key: "SSS24"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "bibliography"
+abstract_kind: "original"
 booktitle: "Proceedings of the 1st ACM/IEEE Workshop on Integrated Development Environments"
 doi: "10.1145/3643796.3648448"
 location: "Lisbon, Portugal"

@@ -11,7 +11,7 @@ authors:
 citation_key: "HBV22"
 publication_type: "article"
 abstract_available: true
-abstract_kind: "bibliography"
+abstract_kind: "original"
 doi: "10.1007/s10664-022-10190-x"
 eid: "150"
 eissn: "1573-7616"

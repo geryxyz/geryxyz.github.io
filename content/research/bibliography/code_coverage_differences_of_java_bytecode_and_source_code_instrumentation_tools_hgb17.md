@@ -10,9 +10,7 @@ authors:
   - "Gyimóthy, Tibor"
 citation_key: "HGB17"
 publication_type: "article"
-abstract_available: true
-abstract_kind: "editorial_summary"
-abstract_source: "https://www.sed.inf.u-szeged.hu/content/code-coverage-differences-java-bytecode-and-source-code"
+abstract_available: false
 doi: "10.1007/s11219-017-9389-z"
 eissn: "1573-1367"
 issn: "0963-9314"
@@ -29,7 +27,3 @@ volume: "27"
 ---
 
 ## Abstract
-
-This empirical investigation compares method-level Java coverage measurements obtained through bytecode instrumentation and source-code instrumentation. It identifies differences relevant to testing tasks that rely on coverage data.
-
-*Editorial summary based on the linked source, not the original publication abstract.*

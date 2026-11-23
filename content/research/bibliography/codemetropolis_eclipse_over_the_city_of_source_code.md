@@ -7,9 +7,7 @@ authors:
   - "Beszédes, Árpád"
 citation_key: "BSB15"
 publication_type: "inproceedings"
-abstract_available: true
-abstract_kind: "editorial_summary"
-abstract_source: "https://codemetropolis.github.io/CodeMetropolis/publications/balogh2015codemetropolis.pdf"
+abstract_available: false
 booktitle: "Proceedings of the 15th IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM'15)"
 doi: "10.1109/scam.2015.7335425"
 location: "Bremen, Germany"
@@ -20,7 +18,3 @@ url: "https://doi.org/10.1109/scam.2015.7335425"
 ---
 
 ## Abstract
-
-The paper integrates CodeMetropolis with the Eclipse development environment. Its software-city representation offers developers another way to examine program structure alongside conventional source editing.
-
-*Editorial summary based on the linked source, not the original publication abstract.*
