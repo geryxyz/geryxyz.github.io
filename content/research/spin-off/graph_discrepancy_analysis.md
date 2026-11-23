@@ -13,4 +13,4 @@ One example is comparing densely connected parts of a method-call graph with the
 
 A related challenge is **program structure analysis**: software development research frequently compares sets of interconnected entities, but relations such as test-to-code connections are not always explicitly recorded.
 
-This idea is connected to [[research/software_analysis_and_quality_assurance|Software Analysis and Quality Assurance]], particularly [[research/bibliography/analysis_of_static_and_dynamic_test_to_code_traceability_information|static and dynamic test-to-code traceability]]. The earlier research page presented generalized graph discrepancy analysis as an area of interest, not as a completed or separately published result.
+This idea is connected to [[research/software_analysis_and_quality_assurance|Software Analysis and Quality Assurance]], particularly [[research/bibliography/analysis_of_static_and_dynamic_test_to_code_traceability_information|static and dynamic test-to-code traceability]].
