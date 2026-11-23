@@ -17,7 +17,7 @@ for (const name of readdirSync(jsDir).filter((name) => name.endsWith(".js"))) {
   const path = join(jsDir, name)
   const content = readFileSync(path, "utf8")
   if (!content.includes("forceSimulation(") || !content.includes("graph-container")) continue
-  const matcher = /\\.forceSimulation\\(([A-Za-z_$][\\w$]*)\\)/
+  const matcher = /\.forceSimulation\(([A-Za-z_$][\w$]*)\)/
   const found = matcher.exec(content)
   if (!found) {
     const offset = content.indexOf("forceSimulation(")
