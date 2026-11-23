@@ -27,3 +27,12 @@ if (normalized.split(urlResolverBefore).length !== 2) {
 const patched = normalized.replace(urlResolverBefore, urlResolverAfter)
 writeFileSync(file, patched)
 console.log("Patched Quartz graph canonical page slug resolution.")
+
+
+// Diagnostic instrumentation for the browser regression test (remove before merge).
+const diagnosticAnchor = "var I=_.offsetWidth"
+const diagnosticInsert = 'console.log("[Graph debug state]",JSON.stringify({root:g,canonical:document.body.dataset.slug,containsRoot:uu.has(g),rootDetails:uu.get(g),dataSize:uu.size,allFolderKeys:[...uu.keys()].filter(k=>k.startsWith("artes-meae")||k.startsWith("research"))}));' + diagnosticAnchor
+if (patched.split(diagnosticAnchor).length !== 2) {
+  throw new Error("Cannot instrument graph renderer after data loading")
+}
+writeFileSync(file, patched.replace(diagnosticAnchor, diagnosticInsert))

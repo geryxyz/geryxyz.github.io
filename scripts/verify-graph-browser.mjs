@@ -40,8 +40,12 @@ try {
   for (const testCase of cases) {
     const page = await browser.newPage({ viewport: { width: 1600, height: 1000 } })
     const errors = []
+    const graphDebug = []
     page.on("pageerror", (error) => errors.push(error.message))
-    page.on("console", (message) => { if (message.type() === "error") errors.push(message.text()) })
+    page.on("console", (message) => {
+      if (message.type() === "error") errors.push(message.text())
+      if (message.text().includes("[Graph debug state]")) graphDebug.push(message.text())
+    })
     await page.addInitScript(() => {
       window.__graphSimulationNodes = []
       let d3Value
@@ -70,7 +74,7 @@ try {
         canvasCount: document.querySelectorAll(".graph-container canvas").length,
         simulationNodes: window.__graphSimulationNodes,
       }))
-      throw new Error("Graph did not initialize for " + testCase.path + ": " + JSON.stringify({ diagnostic, errors }))
+      throw new Error("Graph did not initialize for " + testCase.path + ": " + JSON.stringify({ diagnostic, errors, graphDebug }))
     }
     const result = await page.evaluate(() => ({
       pageSlug: document.body.dataset.slug,
