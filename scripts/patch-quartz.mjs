@@ -12,14 +12,18 @@ const after = 'let e=_t(ft(u,"index"),!1)'
 if (source.split(before).length !== 2) {
   throw new Error("Quartz graph slug normalization changed; review or remove the compatibility patch.")
 }
-writeFileSync(file, source.replace(before, after))
+const normalized = source.replace(before, after)
 console.log("Patched Quartz graph folder-note slug normalization.")
 
-// Temporary diagnosis of the pinned compiled bundle; remove before merging.
-for (const name of ["graph-visited", "contentIndex.json", "Stale render", "let e=_t(ft(u,\"index\"),!0)"]) {
-  const index = source.indexOf(name)
-  console.log("[GRAPH DEBUG]", name, index, index < 0 ? "" : source.slice(Math.max(0, index - 600), index + 600))
-}
-console.log("[GRAPH DEBUG] cu =", source.match(/function cu\\([^)]*\\)\\{[^{}]*\\}/)?.[0])
 
-console.log("[GRAPH DEBUG] URL functions", source.slice(16800, 18500))
+// The local graph's root must use the page's canonical Quartz slug, not the
+// browser URL: folder pages expose e.g. artes-meae/index at /artes-meae/.
+// Keep the original URL/base-path resolver as fallback (including SPA use).
+const urlResolverBefore = 'function u(){var o=we(),i=Nu();'
+const urlResolverAfter = 'function u(){var a=document.body?.dataset?.slug;if(a)return a;var o=we(),i=Nu();'
+if (normalized.split(urlResolverBefore).length !== 2) {
+  throw new Error("Quartz graph URL resolver changed; review the canonical-slug compatibility patch.")
+}
+const patched = normalized.replace(urlResolverBefore, urlResolverAfter)
+writeFileSync(file, patched)
+console.log("Patched Quartz graph canonical page slug resolution.")
