@@ -1,6 +1,7 @@
 import assert from "node:assert/strict"
 import { spawn } from "node:child_process"
 import { join, resolve } from "node:path"
+import { get } from "node:http"
 import { pathToFileURL } from "node:url"
 
 const [publicArg, playwrightArg] = process.argv.slice(2)
@@ -15,8 +16,14 @@ try {
   let ready = false
   for (let i = 0; i < 50; i++) {
     try {
-      const res = await fetch(base + "/static/contentIndex.json")
-      if (res.ok) { ready = true; break }
+      const status = await new Promise((done, reject) => {
+        const req = get(base + "/static/contentIndex.json", (res) => {
+          res.resume()
+          res.on("end", () => done(res.statusCode))
+        })
+        req.on("error", reject)
+      })
+      if (status === 200) { ready = true; break }
     } catch {}
     await new Promise((done) => setTimeout(done, 200))
   }
