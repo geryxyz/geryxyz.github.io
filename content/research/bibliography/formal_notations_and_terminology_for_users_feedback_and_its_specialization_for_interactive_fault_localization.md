@@ -16,5 +16,3 @@ publisher: "SCITEPRESS - Science and Technology Publications"
 unique_id: "33035942"
 url: "https://doi.org/10.5220/0011317800003266"
 ---
-
-## Abstract

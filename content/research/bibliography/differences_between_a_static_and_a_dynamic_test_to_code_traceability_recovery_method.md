@@ -25,5 +25,3 @@ unique_id: "30379629"
 url: "https://doi.org/10.1007/s11219-018-9430-x"
 volume: "27"
 ---
-
-## Abstract

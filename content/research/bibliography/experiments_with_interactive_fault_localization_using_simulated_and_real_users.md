@@ -11,7 +11,6 @@ authors:
 citation_key: "HBV20"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original"
 booktitle: "2020 IEEE International Conference on Software Maintenance and Evolution (ICSME)"
 doi: "10.1109/ICSME46990.2020.00036"
 location: "Adelaide, Australia (virtual event)"
