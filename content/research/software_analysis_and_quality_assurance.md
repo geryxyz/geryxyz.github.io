@@ -5,7 +5,7 @@ tags:
   - research-topic
 ---
 
-I use static and dynamic software analysis to understand software behavior, assess test quality, and support fault localization. Topics include code coverage, mutation testing, test-to-code traceability, unit-test organization, and context-aware debugging.
+I use static and dynamic software analysis to understand software behavior, assess test quality, and support fault localization. Topics include code coverage, mutation testing, test-to-code traceability, unit-test organization, and context-aware debugging. The [iFL4Eclipse](https://github.com/sed-szeged/iFL4Eclipse) prototype brings interactive fault localization into the Eclipse IDE.
 
 - [[research/bibliography/analysis_of_static_and_dynamic_test_to_code_traceability_information|Analysis of Static and Dynamic Test-to-code Traceability Information]]
 - [[research/bibliography/are_my_unit_tests_in_the_right_package_|Are My Unit Tests in the Right Package?]]

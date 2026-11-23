@@ -16,12 +16,6 @@ My research focuses on understanding how software is built, tested, maintained, 
 
 These areas are interconnected: for example, code coverage can support test-quality assessment, fault localization, and visualization, while developer feedback can make analysis results more actionable.
 
-## Research projects and tools
-
-- [CodeMetropolis](https://codemetropolis.github.io/CodeMetropolis/) — A Minecraft-based approach to visualizing software structure and metrics through a city metaphor.
-- [iFL4Eclipse](https://github.com/sed-szeged/iFL4Eclipse) — Interactive fault localization within the Eclipse development environment.
-- [bibHygeia](https://github.com/geryxyz/bibHygeia) — Tools for maintaining BibTeX bibliographies.
-
 ## Publications
 
 You can find my publication records on [Google Scholar](https://scholar.google.com/citations?user=Xh0bbbQAAAAJ&hl=hu), [MTMT](https://m2.mtmt.hu/gui2/?type=authors&mode=browse&sel=10055619), [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55975863300), and [ORCID](https://orcid.org/0000-0002-6781-5453).
