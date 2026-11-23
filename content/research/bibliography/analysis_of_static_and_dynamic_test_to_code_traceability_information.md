@@ -11,7 +11,6 @@ authors:
 citation_key: "GBH18a"
 publication_type: "article"
 abstract_available: true
-abstract_kind: "original_preprint"
 doi: "10.14232/actacyb.23.3.2018.11"
 eissn: "2676-993X"
 issn: "0324-721X"
@@ -25,7 +24,6 @@ publisher: "University of Szeged"
 unique_id: "3396881"
 url: "https://doi.org/10.14232/actacyb.23.3.2018.11"
 volume: "23"
-abstract_source: "uploaded preprint: GBH18a.pdf"
 ---
 
 ## Abstract

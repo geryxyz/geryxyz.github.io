@@ -24,5 +24,3 @@ unique_id: "30729633"
 url: "https://doi.org/10.12700/APH.16.4.2019.4.1"
 volume: "16"
 ---
-
-## Abstract

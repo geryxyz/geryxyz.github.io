@@ -11,7 +11,6 @@ authors:
 citation_key: "HGB17"
 publication_type: "article"
 abstract_available: true
-abstract_kind: "original_preprint"
 doi: "10.1007/s11219-017-9389-z"
 eissn: "1573-1367"
 issn: "0963-9314"
@@ -25,7 +24,6 @@ publisher: "Springer"
 unique_id: "3289296"
 url: "https://doi.org/10.1007/s11219-017-9389-z"
 volume: "27"
-abstract_source: "uploaded preprint: HGB17_HGB19.pdf"
 ---
 
 ## Abstract

@@ -9,7 +9,6 @@ authors:
 citation_key: "BGB16b"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original_preprint"
 booktitle: "IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2016)"
 doi: "10.1109/SCAM.2016.10"
 location: "Raleigh, NC, U.S.A."
@@ -20,7 +19,6 @@ pages: "137--146"
 publisher: "IEEE"
 unique_id: "3109520"
 url: "https://doi.org/10.1109/SCAM.2016.10"
-abstract_source: "uploaded preprint: BGB16b.pdf"
 ---
 
 ## Abstract

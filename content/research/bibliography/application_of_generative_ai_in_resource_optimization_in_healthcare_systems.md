@@ -19,5 +19,3 @@ publisher: "Springer Nature Switzerland"
 unique_id: "35787862"
 url: "https://doi.org/10.1007/978-3-031-82963-5_7"
 ---
-
-## Abstract
