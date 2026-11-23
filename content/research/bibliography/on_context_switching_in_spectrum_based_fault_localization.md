@@ -23,5 +23,3 @@ unique_id: "36940013"
 url: "https://doi.org/10.1109/ACCESS.2026.3660018"
 volume: "14"
 ---
-
-## Abstract

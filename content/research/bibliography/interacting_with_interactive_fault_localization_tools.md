@@ -11,7 +11,6 @@ authors:
 citation_key: "HBS22"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original"
 booktitle: "Proceedings of the 13th International Workshop on Automating Test Case Design, Selection and Evaluation"
 doi: "10.1145/3548659.3561311"
 location: "Singapore"

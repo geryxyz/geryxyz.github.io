@@ -8,7 +8,6 @@ authors:
 citation_key: "BHB19"
 publication_type: "inproceedings"
 abstract_available: true
-abstract_kind: "original"
 booktitle: "12th IEEE Conference on Software Testing, Validation and Verification (ICST)"
 doi: "10.1109/ICST.2019.00045"
 location: "Xi'an, China"

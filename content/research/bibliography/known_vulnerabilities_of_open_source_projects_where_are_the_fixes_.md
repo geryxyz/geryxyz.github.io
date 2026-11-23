@@ -33,5 +33,3 @@ unique_id: "34499877"
 url: "https://doi.org/10.1109/MSEC.2023.3343836"
 volume: "22"
 ---
-
-## Abstract
