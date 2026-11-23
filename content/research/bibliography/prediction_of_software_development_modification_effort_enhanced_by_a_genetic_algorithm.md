@@ -17,4 +17,4 @@ publisher: "Fondazione Bruno Kessler-Press, Trento, Italy"
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+*Abstract not available from the checked sources.*

@@ -8,7 +8,9 @@ authors:
   - "Gyimóthy, Tibor"
 citation_key: "BGB16b"
 publication_type: "inproceedings"
-abstract_available: false
+abstract_available: true
+abstract_kind: "editorial_summary"
+abstract_source: "https://real.mtak.hu/101510/1/7.pdf"
 booktitle: "IEEE International Working Conference on Source Code Analysis and Manipulation (SCAM 2016)"
 doi: "10.1109/SCAM.2016.10"
 location: "Raleigh, NC, U.S.A."
@@ -23,4 +25,6 @@ url: "https://doi.org/10.1109/SCAM.2016.10"
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+The paper investigates whether unit tests belong in appropriate packages. It compares test-to-code relationships with the package hierarchy and identifies discrepancies as potential test-organization smells.
+
+*Editorial summary based on the linked source, not the original publication abstract.*

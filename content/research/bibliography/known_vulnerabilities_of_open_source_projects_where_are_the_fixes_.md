@@ -18,7 +18,9 @@ authors:
   - "Massacci, Fabio"
 citation_key: "MTMT:34499877"
 publication_type: "article"
-abstract_available: false
+abstract_available: true
+abstract_kind: "editorial_summary"
+abstract_source: "https://research.vu.nl/en/publications/known-vulnerabilities-of-open-source-projects-where-are-the-fixes/"
 doi: "10.1109/MSEC.2023.3343836"
 eissn: "1558-4046"
 issn: "1540-7993"
@@ -36,4 +38,6 @@ volume: "22"
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+This article describes the challenge of tracing reported vulnerabilities to their fixing commits in open-source projects. It reports practical experience using Prospector, an industrial tool designed to assist developers with that search.
+
+*Editorial summary based on the linked source, not the original publication abstract.*

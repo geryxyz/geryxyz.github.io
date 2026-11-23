@@ -10,7 +10,9 @@ authors:
   - "Gyimóthy, Tibor"
 citation_key: "GBH18a"
 publication_type: "article"
-abstract_available: false
+abstract_available: true
+abstract_kind: "editorial_summary"
+abstract_source: "https://www.sed.inf.u-szeged.hu/content/analysis-static-and-dynamic-test-code-traceability-information"
 doi: "10.14232/actacyb.23.3.2018.11"
 eissn: "2676-993X"
 issn: "0324-721X"
@@ -28,4 +30,6 @@ volume: "23"
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+The authors examine relationships between unit tests and production code with static and dynamic analyses. They investigate whether recovered links can help expose issues in test organization.
+
+*Editorial summary based on the linked source, not the original publication abstract.*

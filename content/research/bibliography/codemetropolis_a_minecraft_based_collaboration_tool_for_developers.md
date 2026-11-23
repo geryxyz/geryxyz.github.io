@@ -6,7 +6,9 @@ authors:
   - "Beszédes, Árpád"
 citation_key: "BaB13b"
 publication_type: "inproceedings"
-abstract_available: false
+abstract_available: true
+abstract_kind: "editorial_summary"
+abstract_source: "https://codemetropolis.github.io/CodeMetropolis/publications/balogh2013Bcodemetrpolis.pdf"
 booktitle: "Proceedings of the 1st IEEE Working Conference on Software Visualization (VISSOFT'13), New Ideas or Emerging Results track"
 doi: "10.1109/vissoft.2013.6650528"
 location: "Eindhoven, Netherlands"
@@ -18,4 +20,6 @@ url: "https://doi.org/10.1109/vissoft.2013.6650528"
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+The paper explores the use of Minecraft as a shared environment for understanding source code. Its CodeMetropolis visualization presents software structures as a navigable virtual city.
+
+*Editorial summary based on the linked source, not the original publication abstract.*

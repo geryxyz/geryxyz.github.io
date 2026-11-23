@@ -10,7 +10,9 @@ authors:
   - "Gyimóthy, Tibor"
 citation_key: "GBH18b"
 publication_type: "article"
-abstract_available: false
+abstract_available: true
+abstract_kind: "editorial_summary"
+abstract_source: "https://link.springer.com/article/10.1007/s11219-018-9430-x"
 doi: "10.1007/s11219-018-9430-x"
 eissn: "1573-1367"
 issn: "0963-9314"
@@ -28,4 +30,6 @@ volume: "27"
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+The study combines static structural analysis and dynamic coverage information to recover test-to-code traceability links. It compares the results and presents differences for developer inspection and refinement.
+
+*Editorial summary based on the linked source, not the original publication abstract.*

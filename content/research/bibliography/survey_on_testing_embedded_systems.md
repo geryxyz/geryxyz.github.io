@@ -28,4 +28,4 @@ url: "https://cirene.sed.inf.szte.hu/sites/cirene.sed.inf.szte.hu/files/page_fil
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+*Abstract not available from the checked sources.*

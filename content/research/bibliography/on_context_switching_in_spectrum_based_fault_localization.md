@@ -9,7 +9,9 @@ authors:
   - "Gyimóthy, Tibor"
 citation_key: "ASB26"
 publication_type: "article"
-abstract_available: false
+abstract_available: true
+abstract_kind: "editorial_summary"
+abstract_source: "https://www.researchgate.net/publication/400390683_On_Context_Switching_in_Spectrum-Based_Fault_Localization"
 doi: "10.1109/ACCESS.2026.3660018"
 eissn: "2169-3536"
 issn: "2169-3536"
@@ -26,4 +28,6 @@ volume: "14"
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+This study examines the impact of switching between execution contexts on spectrum-based fault localization. It introduces and evaluates context-switch-aware ranking measures to help developers identify potentially faulty code.
+
+*Editorial summary based on the linked source, not the original publication abstract.*

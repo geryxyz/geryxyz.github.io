@@ -8,7 +8,9 @@ authors:
   - "Gyimóthy, Tibor"
 citation_key: "BGB16a"
 publication_type: "inproceedings"
-abstract_available: false
+abstract_available: true
+abstract_kind: "editorial_summary"
+abstract_source: "https://www.inf.u-szeged.hu/~gertom/Kutatas/BGB16.pdf"
 booktitle: "2016 IEEE 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)"
 doi: "10.1109/SANER.2016.48"
 location: "Osaka, Japan"
@@ -23,4 +25,6 @@ url: "https://doi.org/10.1109/SANER.2016.48"
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+The work extends a Minecraft-based software city to visualize testing-related metrics alongside source-code characteristics. It explores an immersive way to inspect test data and software structure together.
+
+*Editorial summary based on the linked source, not the original publication abstract.*

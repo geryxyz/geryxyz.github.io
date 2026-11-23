@@ -9,7 +9,9 @@ authors:
   - "Fábián, Zoltán"
 citation_key: "BGB19"
 publication_type: "article"
-abstract_available: false
+abstract_available: true
+abstract_kind: "editorial_summary"
+abstract_source: "https://acta.uni-obuda.hu/Balogh_Gergely_Beszedes_Szarka_Fabian_91.pdf"
 doi: "10.12700/APH.16.4.2019.4.1"
 eissn: "1785-8860"
 issn: "1785-8860"
@@ -27,4 +29,6 @@ volume: "16"
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+The paper investigates the analysis of data flows and structures in large corporate databases. It considers the use of expert knowledge to guide analysis of database relationships and make findings more relevant to their application context.
+
+*Editorial summary based on the linked source, not the original publication abstract.*

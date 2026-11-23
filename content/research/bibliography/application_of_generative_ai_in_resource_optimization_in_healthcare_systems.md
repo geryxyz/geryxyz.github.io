@@ -22,4 +22,4 @@ url: "https://doi.org/10.1007/978-3-031-82963-5_7"
 
 ## Abstract
 
-*Abstract not available in the merged bibliography.*
+*Abstract not available from the checked sources.*
