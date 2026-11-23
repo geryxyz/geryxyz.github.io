@@ -22,6 +22,14 @@ Work from the repository root and follow `AGENTS.md`.
 - Link related notes where the connection helps the reader, explaining the relationship in the surrounding prose. Build on existing ideas rather than duplicating their explanations.
 - Use overview pages to connect notes into a broader argument or route through a topic. Let useful relationships emerge as the collection grows, without imposing fixed note lengths, IDs, templates, or plugins.
 
+## Organize teaching content
+
+- Structure `content/teaching/` primarily by the intended student's academic level: `bsc/`, `msc/`, `phd/`, and `postdoc/`. Choose the audience for whom a page is primarily written, rather than duplicating it at every level where it might also be useful.
+- Add a level directory **only when it has real publishable content**. Git does not track empty directories; do not create `.gitkeep` files, placeholder notes, empty level indexes, or public "coming soon" sections merely to represent the planned structure.
+- Place practical mentorship material in the appropriate level. For example, migrate the legacy *How I Write Reviews* essay to `content/teaching/phd/how-i-write-reviews.md`, retaining its substance and voice while converting Jekyll markup to Quartz-compatible Markdown; link to it from other levels (such as postdoc) when useful instead of copying it.
+- Keep cross-cutting teaching philosophy (such as *Ars Paedagogiae* and *Mentor Metta*) distinct from level-specific guidance. Link related ideas from `artes-meae/` or their eventual dedicated home rather than folding these texts into BSc/MSc/PhD/postdoc folders by default.
+- Introduce a `shared/` directory or a teaching landing page only when actual content or navigation needs justify it. Prefer Quartz's natural folder discovery over manually duplicated lists of every file.
+
 ## Verify
 
 - Check local links, asset paths, frontmatter, and that the resulting Markdown is understandable without Quartz.
