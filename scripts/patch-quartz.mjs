@@ -21,3 +21,5 @@ for (const name of ["graph-visited", "contentIndex.json", "Stale render", "let e
   console.log("[GRAPH DEBUG]", name, index, index < 0 ? "" : source.slice(Math.max(0, index - 600), index + 600))
 }
 console.log("[GRAPH DEBUG] cu =", source.match(/function cu\\([^)]*\\)\\{[^{}]*\\}/)?.[0])
+
+console.log("[GRAPH DEBUG] URL functions", source.slice(16800, 18500))
