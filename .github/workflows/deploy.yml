@@ -74,6 +74,7 @@ jobs:
           grep -q 'class="profile-photo internal"' "$RUNNER_TEMP/quartz/public/index.html"
           test -s "$RUNNER_TEMP/quartz/public/assets/images/bio-photo.jpg"
           node "$GITHUB_WORKSPACE/scripts/verify-graph.mjs" "$RUNNER_TEMP/quartz"
+          node "$GITHUB_WORKSPACE/scripts/verify-language-folders.mjs" "$RUNNER_TEMP/quartz/public"
 
       - name: Verify local graphs in headless Chrome
         if: github.event_name == 'pull_request'
