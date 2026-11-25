@@ -1,24 +1,22 @@
 ---
-title: Cikk-Cakk Katica – általános iskola
+title: Cikk-Cakk Katica – Primary School
 status: archived
 ---
 
-**Röviden:** Általános iskolásoknak két korosztályra dolgoztam ki Minecraft-alapú informatikai szakköri programot. Az 5–6. osztályosoknak a közös világépítésen keresztül az analitikus gondolkodást és a tervezést, a 7–8. osztályosoknak a Redstone-áramkörökön és a világ automatizálásán keresztül a logikát és a programozást kívántam bemutatni.
+**In brief:** I designed two Minecraft-based extracurricular computing programmes for primary school pupils. For grades 5–6, collaborative world-building introduces analytical thinking and planning; for grades 7–8, Redstone circuits and world automation introduce logic and programming.
 
-## 5–6. osztály
+## Grades 5–6
 
-A közös feladat egy lakható, önfenntartó, a diákok kreativitását kifejező virtuális környezet kialakítása. A játékban megszokott tevékenységek adnak alapot a későbbi informatikai tanulmányok során előkerülő elvont fogalmak megértéséhez.
+The shared task is to design a habitable, self-sustaining virtual environment that expresses the pupils' creativity. Familiar game activities provide a foundation for abstract computing concepts.
 
-A foglalkozási terv főbb lépései:
+1. Explore Minecraft's possibilities.
+2. Identify and classify world elements, introducing elements and types.
+3. Identify and classify their properties.
 
-1. Ismerkedés a Minecraft nyújtotta lehetőségekkel.
-2. A világ elemeinek azonosítása és csoportosítása: az elem és a típus fogalmának bevezetése.
-3. Az elemek tulajdonságainak azonosítása és csoportosítása: a tulajdonság fogalmának bevezetése.
+Planning and organised implementation are practised through collaborative survival and construction tasks.
 
-A tervezés és a szervezett kivitelezés gyakorlása a közös túlélési és építési feladathoz kapcsolódik.
+## Grades 7–8
 
-## 7–8. osztály
+The programme extends this approach to logic circuits and automation. Planned exercises include building simple Redstone circuits and writing short programs that place predefined elements in the world.
 
-A nagyobbaknak szóló program ugyanezt a megközelítést a logikai áramkörök és az automatizálás irányába bővíti. A tervezett gyakorlati feladatok között egyszerű Redstone-áramkörök létrehozása és olyan rövid programok írása szerepel, amelyek előre meghatározott elemeket helyeznek el a világban.
-
-A [[teaching/secondary/cikk-cakk-katica|középiskolai változat]] már egy összetettebb szoftverfejlesztési projekt köré épült.
+The [[teaching/secondary/cikk-cakk-katica|secondary school programme]] develops this approach into a more complex software development project.

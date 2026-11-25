@@ -1,42 +1,42 @@
 ---
-title: Cikk-Cakk Katica – középiskola
+title: Cikk-Cakk Katica – Secondary School
 status: archived
 ---
 
-**Röviden:** Középiskolások számára 25 témakörből álló Minecraft-alapú szakköri tematikát dolgoztam ki. A központi projekt egy, a diákok által választott táblás játék megvalósítása: a szabályok elemzésétől a pálya és a bábuk megtervezésén át azok programozott létrehozásáig és mozgatásáig. A cél nem pusztán a programozás, hanem a szoftverfejlesztési folyamat megismertetése volt.
+**In brief:** I designed a Minecraft-based extracurricular curriculum for secondary school pupils, covering 25 topics. Its central project is implementing a board game chosen by the pupils, from analysing rules to designing, generating and moving game pieces. The goal was to introduce the software development process, not just programming.
 
-## A foglalkozások pedagógiai megközelítése
+## Pedagogical approach
 
-A Minecraft ismert környezetet biztosít az objektumok, tulajdonságok és műveletek felismeréséhez. A diákok maguk választják ki a megvalósítandó játékot, majd rendszerezik annak részeit és szabályait. A felhasználói felület kézi megépítése megelőzi annak programozását, így a tanulók előre látják az új ismeretek gyakorlati hasznát. Az építési és programozási feladatok váltakozása a monotonitás megtörését is szolgálja.
+Minecraft provides a familiar environment for identifying objects, properties and operations. Pupils choose a game and organise its components and rules. Building the interface manually before programming it demonstrates the practical value of new concepts. Alternating construction and programming tasks helps maintain variety.
 
-## A szakkör tematikája
+## Curriculum
 
-| Témakör | Tervezett feladat |
+| Topic | Planned activity |
 |---|---|
-| 1. Ismerkedés | A Minecraft lehetőségeinek feltérképezése |
-| 2. Fejlesztői környezet | A közös projekt játékterének létrehozása és előkészítése |
-| 3. Követelmények | Táblás játék választása, szabályainak elemzése |
-| 4. Utasítások | Grafikus műveletek helyettesítése szöveges parancsokkal |
-| 5. Felület | A bábuk kézi megtervezése és megépítése |
-| 6. Összetett parancsok (2 alkalom) | Parancsnév és paraméterlista |
-| 7. Elektronika | Alapfogalmak Redstone segítségével |
-| 8. Logika | Logikai műveletek |
-| 9. Logikai kapuk (2 alkalom) | Összetett Redstone-áramkörök |
-| 10. Gyakorlás | Ismétlés |
-| 11. Geometria | Háromdimenziós koordináták |
-| 12. Code Builder | Elemi programutasítások használata |
-| 13. Hivatkozások | Relatív és abszolút koordináták és elemhivatkozások |
-| 14. Változók | Változók kezelése a játékban |
-| 15. Felület | A pálya kézi megépítése |
-| 16. Ciklusok | Ismétléses vezérlési szerkezetek |
-| 17. Elágazások | Feltételes vezérlési szerkezetek |
-| 18. Gyakorlás | Ismétlés |
-| 19. Pályagenerálás | Ciklusok és feltételek alkalmazása |
-| 20. Felület generálása (2 alkalom) | A kézzel tervezett felület programozott létrehozása |
-| 21. Felülvizsgálat | A bábuk terveinek ellenőrzése és módosítása |
-| 22. Inicializálás (2 alkalom) | Bábuk programozott elhelyezése |
-| 23. Játéklogika tervezése (2 alkalom) | Mozgatás és játékszabályok |
-| 24. Játéklogika megvalósítása (2 alkalom) | A mozgatást végző program elkészítése |
-| 25. Összefoglalás | Ismétlés és kitekintés más fejlesztői környezetekre |
+| 1. Introduction | Explore Minecraft |
+| 2. Development environment | Prepare the shared project world |
+| 3. Requirements | Choose a board game and analyse its rules |
+| 4. Instructions | Replace graphical actions with text commands |
+| 5. Interface | Design and build game pieces manually |
+| 6. Complex commands (2 sessions) | Command names and parameter lists |
+| 7. Electronics | Basic concepts using Redstone |
+| 8. Logic | Logical operations |
+| 9. Logic gates (2 sessions) | Complex Redstone circuits |
+| 10. Practice | Revision |
+| 11. Geometry | Three-dimensional coordinates |
+| 12. Code Builder | Basic programming instructions |
+| 13. References | Relative and absolute coordinates and element references |
+| 14. Variables | Manage variables in the game |
+| 15. Interface | Build the board manually |
+| 16. Loops | Repetition |
+| 17. Branching | Conditional control flow |
+| 18. Practice | Revision |
+| 19. Board generation | Apply loops and conditions |
+| 20. Interface generation (2 sessions) | Generate the manually designed interface programmatically |
+| 21. Review | Check and revise game-piece designs |
+| 22. Initialisation (2 sessions) | Place pieces programmatically |
+| 23. Game logic design (2 sessions) | Movement and rules |
+| 24. Game logic implementation (2 sessions) | Implement movement |
+| 25. Summary | Revision and other development environments |
 
-A tematika a [[teaching/primary/cikk-cakk-katica|fiatalabb korosztályoknak kidolgozott foglalkozások]] pedagógiai megközelítését viszi tovább.
+The curriculum extends the pedagogical approach developed for [[teaching/primary/cikk-cakk-katica|younger pupils]].

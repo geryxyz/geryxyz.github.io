@@ -1,38 +1,31 @@
 ---
-title: Python, Gráf, Programozás (PGP)
+title: Python, Graphs and Programming (PGP)
 status: archived
 ---
 
-**Röviden:** Középiskolásoknak kétórás, négyórás és féléves informatikai foglalkozási terveket és gyakorlati példákat készítettem. A központi feladat egy Neo4j-alapú filmajánló rendszer megalkotása volt. A feladat a gráfelméletet, a Cypher lekérdezéseket, a halmazelméletet és a Python-programozást kapcsolta össze; az elkészült What2Watch mintaprogramban a Jaccard-hasonlóság alapján rangsoroltam a filmeket.
+**In brief:** I prepared two-hour, four-hour and semester-long computing lesson plans and practical examples for secondary school pupils. The central task was building a Neo4j-based movie recommender, connecting graph theory, Cypher queries, set theory and Python programming. In the What2Watch example application, I ranked films using Jaccard similarity.
 
-## A program felépítése
+## Programme structure
 
-- **Kétórás változat:** a gráfok és a gráfadatbázisok megismerése, lekérdezések, filmajánlás és műfajok alapján számított hasonlóság.
-- **Négyórás változat:** az előzőek kiegészítése Python-alapokkal, adatbázis-hozzáféréssel és a filmajánló program megvalósításával.
-- **Féléves változat:** a programozási alapok és a projektmunka részletesebb feldolgozására készült terv, valamint a filmajánlóhoz kidolgozott gyakorlati tananyag.
+- **Two-hour version:** graphs, graph databases, queries, movie recommendations and genre-based similarity.
+- **Four-hour version:** additionally introduces Python fundamentals, database access and recommender implementation.
+- **Semester-long version:** a plan for more extensive programming fundamentals and project work, together with practical recommender materials.
 
-## A tananyag főbb elemei
+## Main topics
 
-1. A szoftverfejlesztés részei: folyamat- és adatszerkezet-tervezés, kódolás, tesztelés, hibajavítás.
-2. Gráfelmélet: csomópontok, élek, irányítás, súlyok és tulajdonságok.
-3. Neo4j és Cypher: mintakeresés, szűrés, változók, aggregálás, rendezés és eredmények korlátozása.
-4. Python: szöveges bemenet és kimenet, függvények, modulok, listák, iteráció és adatbázis-hozzáférés.
-5. Halmazelmélet: metszet, unió, Jaccard-hasonlóság.
-6. Refaktorálás és optimalizálás: ismétlődő adatbázis-műveletek kiemelése, majd a lekérdezések számának csökkentése.
-7. Ajánlások rangsorolása és megjelenítése parancssori felületen.
+1. Software development: process and data structure design, coding, testing and debugging.
+2. Graph theory: nodes, edges, direction, weights and properties.
+3. Neo4j and Cypher: pattern matching, filtering, variables, aggregation, ordering and limiting results.
+4. Python: text input/output, functions, modules, lists, iteration and database access.
+5. Set theory: intersection, union and Jaccard similarity.
+6. Refactoring and optimisation: extracting repeated database operations and reducing query counts.
+7. Ranking and displaying recommendations through a command-line interface.
 
-## Gyakorlati feladat: filmajánlás gráfokkal
+## Practical exercise: graph-based recommendations
 
-A feladatban filmek, felhasználók és műfajok alkotják a gráf csomópontjait. A filmértékelések és a műfaji besorolások az élek.
+Movies, users and genres form the graph nodes; ratings and genre classifications form edges. Pupils explore increasingly complex questions about ratings of the Matrix films, common raters of Crimson Tide, genres shared with Inception and genre-based similarity rankings.
 
-A tanulók fokozatosan összetettebb kérdésekre keresnek választ:
-
-- Kik értékelték a Matrix-filmeket, és hány szavazat érkezett filmenként?
-- Milyen más filmeket értékeltek azok, akik a Crimson Tide-ot is értékelték?
-- Milyen műfajokba tartozik az Inception, és mely filmeknek vannak vele közös műfajaik?
-- Hogyan rangsorolhatók a filmek a műfajok hasonlósága alapján?
-
-Példa a közös felhasználók alapján történő ajánlásra:
+For example:
 
 ```cypher
 MATCH (liked:Movie {title: "Crimson Tide"})<-[:RATED]-(user:User)-[:RATED]->(other:Movie)
@@ -40,13 +33,11 @@ RETURN other.title AS recommendation, count(user) AS similarity
 ORDER BY similarity DESC LIMIT 10
 ```
 
-Ez a példa a közös értékelők számát használja; nem vizsgálja az értékelések előjelét vagy nagyságát.
+This counts common raters without considering rating polarity or magnitude.
 
-## Gyakorlati feladat: halmazelmélet és Python
+## Practical exercise: set theory and Python
 
-A másik megközelítés a filmek műfajhalmazait hasonlítja össze. A [Jaccard-index](https://en.wikipedia.org/wiki/Jaccard_index) a két halmaz metszetének és uniójának elemszámából számítható.
-
-A mintaprogram egyszerűsített részlete:
+The alternative approach compares movie genre sets using the [Jaccard index](https://en.wikipedia.org/wiki/Jaccard_index), calculated from the sizes of their intersection and union.
 
 ```python
 def jaccard_similarity(liked_genres, other_genres):
@@ -55,4 +46,4 @@ def jaccard_similarity(liked_genres, other_genres):
     return len(intersection) / len(union) if union else 0.0
 ```
 
-A What2Watch programban először külön lekérdezésekkel gyűjtöttem össze a filmek műfajait, majd egy közös lekérdezéssel csökkentettem az adatbázis-műveletek számát. A Python-program a kiszámított hasonlóság szerint rendezte az eredményeket, és megjelenítette a tíz legjobb ajánlást. Ezzel ugyanazon a feladaton keresztül lehetett szemléltetni a matematikai modell, az adatbázis-lekérdezés, a programozás és a teljesítmény közötti kapcsolatot.
+In What2Watch, I initially retrieved genres using separate queries, then combined them to reduce database operations. The Python application sorted films by similarity and displayed the top ten recommendations. This exercise illustrates the connection between mathematical models, database queries, programming and performance.
