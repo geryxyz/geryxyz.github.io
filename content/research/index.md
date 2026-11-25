@@ -15,7 +15,9 @@ These areas are interconnected: for example, code coverage can support test-qual
 
 You can find my publication records on [Google Scholar](https://scholar.google.com/citations?user=Xh0bbbQAAAAJ&hl=hu), [MTMT](https://m2.mtmt.hu/gui2/?type=authors&mode=browse&sel=10055619), [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55975863300), and [ORCID](https://orcid.org/0000-0002-6781-5453).
 
-Individual publication notes, including bibliographic metadata and available abstracts, are collected in [the publication bibliography](/research/bibliography/).
+The publications below link to individual notes containing bibliographic metadata and available abstracts.
+
+![[research/publications.base]]
 
 Other interests and exploratory ideas can be found in [Spin-off Topics and Interests](/research/spin-off/).
 

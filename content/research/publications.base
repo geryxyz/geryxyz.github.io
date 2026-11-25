@@ -1,0 +1,29 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'file.inFolder("research/bibliography")'
+    - 'publication_type != null'
+formulas:
+  publication: 'file.asLink(title)'
+properties:
+  formula.publication:
+    displayName: Publication
+  note.year:
+    displayName: Year
+  note.authors:
+    displayName: Authors
+  note.publication_type:
+    displayName: Type
+views:
+  - type: table
+    name: All publications
+    order:
+      - note.year
+      - formula.publication
+      - note.authors
+      - note.publication_type
+    sort:
+      - property: note.year
+        direction: DESC
+      - property: note.title
+        direction: ASC
