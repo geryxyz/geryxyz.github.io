@@ -30,6 +30,5 @@ Az általános tudnivalókat és jelentkezési információkat az alábbi gombok
 ## Érdeklődőknek
 
 <span class="center">
-[<i class="fa-solid fa-hands-holding-circle"></i><br/>Szakkörök](/teaching/study-groups){: .btn .btn--large .btn--edge}
 [<i class="fa-solid fa-seedling"></i><br/>Mentor Metta](/teaching/mentor-metta){: .btn .btn--large .btn--edge}
 </span>
