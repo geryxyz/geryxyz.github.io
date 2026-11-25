@@ -6,27 +6,7 @@ title: Teaching Experience
 
 ## University teaching
 
-The historical university teaching records cover 2012/13 through autumn 2022/23. Individual course pages preserve the original course names, codes, assessment types and recorded semesters where available. Active courses are identified by their current status; the historical records are not a complete list of recent teaching assignments.
-
-### BSc
-
-- [[teaching/bsc/project-work-1|Project Work I]] and [[teaching/bsc/project-work-2|Project Work II]]
-- [[teaching/bsc/systems-development-2|Systems Development II]]
-- [[teaching/bsc/programming-fundamentals|Programming Fundamentals]]
-- [[teaching/bsc/software-development|Software Development]]
-- [[teaching/bsc/scripting-languages|Scripting Languages]]
-
-### MSc
-
-- [[teaching/msc/software-development|Software Development]]
-- [[teaching/msc/business-web-technologies|Business Web Technologies]]
-- [[teaching/msc/operating-systems-in-schools|Operating Systems in Schools]]
-
-Related teacher-training records are identified on the corresponding subject pages.
-
-## Academic supervision
-
-I supervise [[teaching/bsc/thesis|BSc theses]] and [[teaching/msc/thesis|MSc theses]]. The course pages include historical thesis-related teaching assignments, including English-language Thesis Work and courses for several degree programmes.
+![[teaching/courses.base]]
 
 ## Pre-university education
 
