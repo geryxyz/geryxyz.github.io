@@ -1,8 +1,3 @@
----
-title: Research
-tags:
-  - research
----
 
 My research focuses on understanding how software is built, tested, maintained, and improved—and how tools can better support the people doing that work. I combine static and dynamic software analysis with measurements of development activity, visualization, and feedback from developers. A recurring goal is to turn technical data into insights that are useful in practice.
 

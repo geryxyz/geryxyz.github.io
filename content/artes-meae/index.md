@@ -1,6 +1,3 @@
----
-title: "Artes Meae: Crafting My Path in Software Engineering and Academia"
----
 
 The goal of this essay is to encapsulate my professional philosophy across the interconnected realms of education, software development, and research. I approach these domains through two key metaphors: the magic of craftsmanship and the chaos of interdependent systems.
 

@@ -16,6 +16,6 @@ The interplay between education, industry, and research can be complex, with shi
 
 ---
 
-Part of [[artes-meae/artes-meae|Artes Meae: Crafting My Path in Software Engineering and Academia]], where the three arts come together and the shared [[artes-meae/artes-meae#references|references]] are listed.
+Part of [[artes-meae/index|Artes Meae: Crafting My Path in Software Engineering and Academia]], where the three arts come together and the shared [[artes-meae/index#references|references]] are listed.
 
 Related perspectives: [[artes-meae/ars-paedagogiae|Ars Paedagogiae: The Art of Education]] · [[artes-meae/ars-technica|Ars Technica: The Philosophy of Software Development]].
