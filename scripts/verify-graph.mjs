@@ -27,7 +27,8 @@ assert.equal(normalize("index"), normalize("/"))
 
 const index = JSON.parse(readFileSync(join(quartz, "public/static/contentIndex.json"), "utf8"))
 // Quartz publishes both folder/index.md and folder/folder.md as folder indexes.
-const overview = Object.keys(index).find((slug) => index[slug].filePath === "artes-meae/artes-meae.md")
+const overviewPaths = new Set(["artes-meae/index.md", "artes-meae/artes-meae.md"])
+const overview = Object.keys(index).find((slug) => overviewPaths.has(index[slug].filePath))
 assert.ok(overview, "The Artes Meae source note must appear in the content index")
 const notes = ["ars-paedagogiae", "ars-technica", "ars-scientiae"].map((name) => `artes-meae/${name}`)
 const links = (slug) => (index[slug]?.links ?? []).map(normalize)
