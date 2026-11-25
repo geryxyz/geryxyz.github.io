@@ -1,14 +1,24 @@
 ---
 title: Cikk-Cakk Katica – általános iskola
 status: archived
-aliases:
-  - pages/teaching/extra-class-curriculum/cck/primary5_6
-  - pages/teaching/extra-class-curriculum/cck/primary7_8
 ---
 
-A Cikk-Cakk Katica szakkör célja az analitikus gondolkodás fejlesztése és a szoftverfejlesztés alapfogalmainak megismertetése volt a Minecraft világán keresztül.
+**Röviden:** Általános iskolásoknak két korosztályra dolgoztam ki Minecraft-alapú informatikai szakköri programot. Az 5–6. osztályosoknak a közös világépítésen keresztül az analitikus gondolkodást és a tervezést, a 7–8. osztályosoknak a Redstone-áramkörökön és a világ automatizálásán keresztül a logikát és a programozást kívántam bemutatni.
 
-- **5–6. osztály:** objektumok, típusok és tulajdonságok felismerése, csoportosítás, logikus tervezés és szervezett kivitelezés egy közösen kialakított virtuális világban.
-- **7–8. osztály:** egyszerű logikai áramkörök, automatizálás és rövid programok készítése.
+## 5–6. osztály
 
-A programhoz két korosztályra készült foglalkozási terv. A [[teaching/secondary/cikk-cakk-katica|középiskolai változat]] már egy összetettebb szoftverfejlesztési projekt köré épült.
+A közös feladat egy lakható, önfenntartó, a diákok kreativitását kifejező virtuális környezet kialakítása. A játékban megszokott tevékenységek adnak alapot a későbbi informatikai tanulmányok során előkerülő elvont fogalmak megértéséhez.
+
+A foglalkozási terv főbb lépései:
+
+1. Ismerkedés a Minecraft nyújtotta lehetőségekkel.
+2. A világ elemeinek azonosítása és csoportosítása: az elem és a típus fogalmának bevezetése.
+3. Az elemek tulajdonságainak azonosítása és csoportosítása: a tulajdonság fogalmának bevezetése.
+
+A tervezés és a szervezett kivitelezés gyakorlása a közös túlélési és építési feladathoz kapcsolódik.
+
+## 7–8. osztály
+
+A nagyobbaknak szóló program ugyanezt a megközelítést a logikai áramkörök és az automatizálás irányába bővíti. A tervezett gyakorlati feladatok között egyszerű Redstone-áramkörök létrehozása és olyan rövid programok írása szerepel, amelyek előre meghatározott elemeket helyeznek el a világban.
+
+A [[teaching/secondary/cikk-cakk-katica|középiskolai változat]] már egy összetettebb szoftverfejlesztési projekt köré épült.
