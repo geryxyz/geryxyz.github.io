@@ -8,6 +8,8 @@ This is my personal and professional site: a place for my research, teaching, pr
 
 [[artes-meae/index|Artes Meae: Crafting My Path in Software Engineering and Academia]] — my philosophy of education, software development, and research.
 
+[[research/index|Research]] — my research areas and publications.
+
 [[teaching/index|Teaching]] — my educational activities and teaching experience.
 
 These pages are plain Markdown, published with Quartz. You can also open the repository's `content` folder as a vault in Obsidian, or read and edit it with any text editor.

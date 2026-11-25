@@ -18,3 +18,5 @@ You can find my publication records on [Google Scholar](https://scholar.google.c
 Individual publication notes, including bibliographic metadata and available abstracts, are collected in [the publication bibliography](/research/bibliography/).
 
 Other interests and exploratory ideas can be found in [Spin-off Topics and Interests](/research/spin-off/).
+
+Related interests include [[research/spin-off/bibliography_housekeeping|bibliography housekeeping]], [[research/spin-off/conlanging|conlanging]] and [[research/spin-off/theoretical_linguistics|theoretical linguistics]].
