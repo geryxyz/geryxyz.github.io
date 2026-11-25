@@ -61,6 +61,7 @@ jobs:
           node "$GITHUB_WORKSPACE/scripts/patch-quartz.mjs" "$PWD"
           cp "$GITHUB_WORKSPACE/site/quartz.ts" quartz.ts
           cp "$GITHUB_WORKSPACE/site/Profile.tsx" quartz/components/Profile.tsx
+          cp "$GITHUB_WORKSPACE/site/LanguageSwitch.tsx" quartz/components/LanguageSwitch.tsx
           npx --no-install quartz plugin install
 
       - name: Build site

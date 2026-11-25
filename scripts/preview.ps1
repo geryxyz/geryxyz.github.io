@@ -96,6 +96,7 @@ try {
     Copy-Item -LiteralPath $configPath -Destination (Join-Path $quartzPath 'quartz.config.yaml')
     Copy-Item -LiteralPath (Join-Path $repoRoot 'site/quartz.ts') -Destination (Join-Path $quartzPath 'quartz.ts')
     Copy-Item -LiteralPath (Join-Path $repoRoot 'site/Profile.tsx') -Destination (Join-Path $quartzPath 'quartz/components/Profile.tsx')
+    Copy-Item -LiteralPath (Join-Path $repoRoot 'site/LanguageSwitch.tsx') -Destination (Join-Path $quartzPath 'quartz/components/LanguageSwitch.tsx')
     Invoke-NodeChecked -Arguments @($cli, 'plugin', 'install')
 
     if ($BuildOnly) {

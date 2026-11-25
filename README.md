@@ -6,6 +6,8 @@ The remaining previous Jekyll website lives in `legacy/`. Reused files are moved
 
 Place publishable Markdown and assets in `content/`, starting with `content/index.md`. Only this directory is imported into the generated site; `legacy/` is not published.
 
+English is the default language for teaching portfolio pages. Optional Hungarian versions use the same filename with `.hu.md` instead of `.md`. The site-owned language switcher links matching pages automatically, without translation metadata. Both versions are published and searchable.
+
 There is no Quartz source, npm dependency tree, or generated website committed to this repository.
 
 ## Build and deployment
