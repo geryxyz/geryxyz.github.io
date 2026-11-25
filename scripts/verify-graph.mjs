@@ -1,7 +1,8 @@
-import { readFileSync } from "node:fs"
-import { join } from "node:path"
+import { readFileSync, existsSync, statSync } from "node:fs"
+import { join, resolve, dirname } from "node:path"
 import { runInNewContext } from "node:vm"
 import assert from "node:assert/strict"
+import { fileURLToPath } from "node:url"
 
 const quartz = process.argv[2]
 const graphRoot = join(quartz, "node_modules/@quartz-community/graph")
@@ -73,10 +74,17 @@ assertNeighbours("research", [
 console.log("Verified local-graph runtime and Artes Meae/Research neighbourhoods.")
 
 // Check the published knowledge graph, not generated folder listings.
-const sourceNotes = Object.entries(index).filter(([, detail]) => detail.filePath?.endsWith(".md"))
+const contentRoot = resolve(dirname(fileURLToPath(import.meta.url)), "../content")
+const sourceNotes = Object.entries(index).filter(([, detail]) => {
+  if (!detail.filePath?.endsWith(".md")) return false
+  const source = join(contentRoot, detail.filePath)
+  return existsSync(source) && statSync(source).isFile()
+})
+assert.ok(sourceNotes.some(([slug]) => slug === "index"), "Source homepage must be indexed")
 const sourceSlugs = new Set(sourceNotes.map(([slug]) => normalize(slug)))
 const topics = sourceNotes.filter(([, detail]) => detail.tags?.includes("research-topic"))
 const publications = sourceNotes.filter(([, detail]) => detail.filePath.startsWith("research/bibliography/"))
+assert.ok(publications.length > 0 && topics.length > 0, "Expected indexed publications and research topics")
 const missingTopics = publications.filter(([slug]) => !topics.some(([topic]) => links(topic).includes(normalize(slug))))
 assert.equal(missingTopics.length, 0, "Publications without research-topic links: " + missingTopics.map(([slug]) => slug).join(", "))
 // The graph is undirected; language siblings and the course Base are intentional navigation edges.
