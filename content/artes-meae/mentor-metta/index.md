@@ -7,8 +7,7 @@ Since my mother tongue is Hungarian, I am providing both the original Hungarian 
 
 ## Poem
 
-- [[artes-meae/mentor-metta/poem-hu|Hungarian original]]
-- [[artes-meae/mentor-metta/poem-en|English translation]]
+- [[artes-meae/mentor-metta/poem|Poem]] — English and Hungarian versions
 - [[artes-meae/mentor-metta/poem-bilingual|Hungarian and English — line by line]]
 
 ## Elaboration

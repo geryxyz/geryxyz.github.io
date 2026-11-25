@@ -1,5 +1,5 @@
 ---
-title: "Mentor Metta — English"
+title: "Mentor Metta"
 ---
 
 My body is a part of me, but it is not me.  

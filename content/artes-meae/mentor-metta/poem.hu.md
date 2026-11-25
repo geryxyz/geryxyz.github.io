@@ -1,5 +1,5 @@
 ---
-title: "Mentor Metta — Hungarian"
+title: "Mentor Metta"
 ---
 
 A testem részem, de nem én vagyok.  
