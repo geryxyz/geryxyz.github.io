@@ -1,8 +1,7 @@
 ---
-title: Project Work I
+title: "Project Work I"
+title_hu: "Projektmunka I."
+level: bsc
 status: active
+semesters: []
 ---
-
-**Hungarian:** Projektmunka I.
-
-**Level:** BSc
