@@ -8,6 +8,8 @@ This is my personal and professional site: a place for my research, teaching, pr
 
 [[artes-meae/index|Artes Meae: Crafting My Path in Software Engineering and Academia]] — my philosophy of education, software development, and research.
 
+[[teaching/index|Teaching]] — my educational activities and teaching experience.
+
 These pages are plain Markdown, published with Quartz. You can also open the repository's `content` folder as a vault in Obsidian, or read and edit it with any text editor.
 
 You can find my personal and pet projects on [GitHub](https://github.com/geryxyz), and my scholarly publications on [Google Scholar](https://scholar.google.com/citations?user=Xh0bbbQAAAAJ).
