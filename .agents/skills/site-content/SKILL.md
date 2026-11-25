@@ -30,3 +30,5 @@ Work from the repository root and follow `AGENTS.md`.
 - Describe what migrated and any unresolved references. Commit only within the current authorization, using Conventional Commits.
 
 - Every published note must be connected to the homepage knowledge graph. Each publication must have an explicit link from at least one relevant research topic; add links from other topics where meaningful. Preserve automatic language navigation and the teaching Base instead of duplicating their lists.
+
+- Write research-topic pages as related-work narratives: organize around research questions, approaches, and relationships between contributions; integrate publication links into the prose rather than appending a bibliography. Do not claim findings not supported by the available publication records.
