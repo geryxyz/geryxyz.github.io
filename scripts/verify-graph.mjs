@@ -1,7 +1,8 @@
-import { readFileSync } from "node:fs"
-import { join } from "node:path"
+import { readFileSync, existsSync, statSync } from "node:fs"
+import { join, resolve, dirname } from "node:path"
 import { runInNewContext } from "node:vm"
 import assert from "node:assert/strict"
+import { fileURLToPath } from "node:url"
 
 const quartz = process.argv[2]
 const graphRoot = join(quartz, "node_modules/@quartz-community/graph")
@@ -71,3 +72,39 @@ assertNeighbours("research", [
   "research/data_driven_software_engineering",
 ])
 console.log("Verified local-graph runtime and Artes Meae/Research neighbourhoods.")
+
+// Check the published knowledge graph, not generated folder listings.
+const contentRoot = resolve(dirname(fileURLToPath(import.meta.url)), "../content")
+const sourceNotes = Object.entries(index).filter(([, detail]) => {
+  if (!detail.filePath?.endsWith(".md")) return false
+  const source = join(contentRoot, detail.filePath)
+  return existsSync(source) && statSync(source).isFile()
+})
+assert.ok(sourceNotes.some(([slug]) => slug === "index"), "Source homepage must be indexed")
+const sourceSlugs = new Set(sourceNotes.map(([slug]) => normalize(slug)))
+const topics = sourceNotes.filter(([, detail]) => detail.tags?.includes("research-topic"))
+const publications = sourceNotes.filter(([, detail]) => detail.filePath.startsWith("research/bibliography/"))
+assert.ok(publications.length > 0 && topics.length > 0, "Expected indexed publications and research topics")
+const missingTopics = publications.filter(([slug]) => !topics.some(([topic]) => links(topic).includes(normalize(slug))))
+assert.equal(missingTopics.length, 0, "Publications without research-topic links: " + missingTopics.map(([slug]) => slug).join(", "))
+// The graph is undirected; language siblings and the course Base are intentional navigation edges.
+const adjacency = new Map([...sourceSlugs].map(slug => [slug, new Set()]))
+function connect(a, b) {
+  if (adjacency.has(a) && adjacency.has(b)) { adjacency.get(a).add(b); adjacency.get(b).add(a) }
+}
+for (const [slug, detail] of sourceNotes) {
+  const key = normalize(slug)
+  for (const target of links(slug)) connect(key, target)
+  if (slug.endsWith(".hu")) connect(key, normalize(slug.slice(0, -3)))
+  if (/^teaching\/(bsc|msc)\/[^/]+\.md$/.test(detail.filePath)) connect(normalize("teaching/experience"), key)
+}
+const visited = new Set(), queue = [normalize("index")]
+while (queue.length) {
+  const node = queue.pop()
+  if (visited.has(node)) continue
+  visited.add(node)
+  for (const neighbour of adjacency.get(node) ?? []) queue.push(neighbour)
+}
+const unreachable = [...sourceSlugs].filter(slug => !visited.has(slug))
+assert.equal(unreachable.length, 0, "Unreachable published notes: " + unreachable.join(", "))
+console.log("Verified publication-topic links and published-note connectivity.")
