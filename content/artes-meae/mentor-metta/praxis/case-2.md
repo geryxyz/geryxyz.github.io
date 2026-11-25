@@ -1,7 +1,5 @@
 ---
 title: Mentor Metta Praxis 2 — Modeling Leadership and Honest Communication for a Hesitant Team
-permalink: /teaching/mentor-metta/praxis/case-2
-toc: true
 ---
 
 ## Description
@@ -18,3 +16,6 @@ Two students on the same team—one quiet, the other talkative but prone to dist
 
 3. **Let natural consequences stand, but frame them as learning tools rather than punishments.**
    Deadlines, lost points, or slower progress should educate, not shame—your goal is to help them grow, with grading serving as an analogy to real project responsibilities.
+
+
+Part of [[artes-meae/mentor-metta/index|Mentor Metta]].

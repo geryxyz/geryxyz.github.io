@@ -1,7 +1,5 @@
 ---
 title: Mentor Metta Praxis 3 — Viewing Student Mistakes as Communication Opportunities
-permalink: /teaching/mentor-metta/praxis/case-3
-toc: true
 ---
 
 ## Description
@@ -18,3 +16,6 @@ In a C++ assignment involving `vector`, a student incorrectly supplied two templ
 
 3. **Let consequences teach while you stay emotionally steady.**
    Remind students to test their work and explain the risks of not doing so, but remember: **If they ignore the reminders and continue submitting untested work, that is ultimately their choice and the natural grade consequences belong to them—not to the tutor, who gains nothing from frustration.**
+
+
+Part of [[artes-meae/mentor-metta/index|Mentor Metta]].

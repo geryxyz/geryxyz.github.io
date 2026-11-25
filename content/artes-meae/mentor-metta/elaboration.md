@@ -1,7 +1,5 @@
 ---
 title: Mentor Metta - Elaboration
-permalink: /teaching/mentor-metta/elaboration
-toc: true
 ---
 
 ## **First Verse – Self-Awareness & Non-Attachment**
@@ -73,3 +71,5 @@ toc: true
 **"Legyenek boldogok és szabadok."**  
 (_May they be happy and free._)  
 → A final **Metta blessing**, extending goodwill to all—past mentors, mentees, and all beings.
+
+Part of [[artes-meae/mentor-metta/index|Mentor Metta]].
