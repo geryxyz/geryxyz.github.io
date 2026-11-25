@@ -16,6 +16,10 @@ Mentoring is particularly vital when it comes to bridging the gap between explic
 
 Ultimately, education serves as the starting point for professional development, but it is also a continuous process. The structured transmission of explicit knowledge provides the foundation, but it is the mentoring relationship—where tacit knowledge is shared and human connections are built—that transforms learning into mastery. This mastery is not confined to theoretical understanding; it is deeply practical, enabling individuals to adapt, innovate, and thrive in the real world.
 
+## Mentor Metta
+
+[[artes-meae/mentor-metta/index|Mentor Metta]] expresses my mentoring philosophy through a poem inspired by the Metta Sutta, its elaboration, and practical cases from my teaching.
+
 ---
 
 Part of [[artes-meae/index|Artes Meae: Crafting My Path in Software Engineering and Academia]], where the three arts come together and the shared [[artes-meae/index#references|references]] are listed.

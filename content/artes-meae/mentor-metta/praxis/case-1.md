@@ -1,7 +1,5 @@
 ---
 title: Mentor Metta Praxis 1 — Guiding a Distracted Student While Recognizing Their Strengths
-permalink: /teaching/mentor-metta/praxis/case-1
-toc: true
 ---
 
 ## Description
@@ -18,3 +16,6 @@ A student frequently checked their phone, missed instructions, and needed inform
 
 + **Give honest, private feedback that ties behavior to long-term consequences.**
    Speak with the student individually, acknowledge possible personal struggles, and explain how attention and engagement directly shape the professional they will become.
+
+
+Part of [[artes-meae/mentor-metta/index|Mentor Metta]].
