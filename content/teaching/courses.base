@@ -1,0 +1,66 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - or:
+        - 'file.inFolder("teaching/bsc")'
+        - 'file.inFolder("teaching/msc")'
+    - or:
+        - 'status == "active"'
+        - 'status == "archived"'
+formulas:
+  course: 'file.asLink(title)'
+properties:
+  formula.course:
+    displayName: Course
+  note.title_hu:
+    displayName: Hungarian name
+  note.level:
+    displayName: Level
+  note.status:
+    displayName: Status
+  note.semesters:
+    displayName: Semesters
+views:
+  - type: table
+    name: All courses
+    order:
+      - formula.course
+      - note.title_hu
+      - note.level
+      - note.status
+      - note.semesters
+    sort:
+      - property: note.level
+        direction: ASC
+      - property: note.title
+        direction: ASC
+  - type: table
+    name: Active
+    filters:
+      and:
+        - 'status == "active"'
+    order:
+      - formula.course
+      - note.title_hu
+      - note.level
+      - note.semesters
+    sort:
+      - property: note.level
+        direction: ASC
+      - property: note.title
+        direction: ASC
+  - type: table
+    name: Archived
+    filters:
+      and:
+        - 'status == "archived"'
+    order:
+      - formula.course
+      - note.title_hu
+      - note.level
+      - note.semesters
+    sort:
+      - property: note.level
+        direction: ASC
+      - property: note.title
+        direction: ASC
