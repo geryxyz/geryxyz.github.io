@@ -2,7 +2,13 @@
 title: "蒙, ䷃; A balga gyermek"
 ---
 
-A [Ji Csing (A változások könyve) negyedik hexagramja, a 蒙 (Méng)](https://jicsing.hu/hexagram/4) az ifjúkori tapasztalatlanságot a tanulás kiindulópontjaként értelmezi. Richard Wilhelm magyarázatában a hegy alól előbukkanó forrás képe különösen jól megragadja számomra a tanulás természetét: az út nem áll készen a tanuló előtt, de saját kitartásával, a tanító útmutatását felhasználva megtalálhatja azt. A tanító és a tanuló kapcsolatáról vallott nézeteim egyik fontos ihletője ez a gondolat. Az alábbi szöveg a hexagram ítéletének és Wilhelm magyarázatának magyar változatából idéz.
+A Ji Csing (A változások könyve) negyedik hexagramjában, a 蒙 (Méng) jelben számomra elsősorban a tanító és a tanuló közötti viszony a meghatározó. A fiatalok életmódja, szemlélete és értékrendje természetes módon eltérhet a tanárétól. Más élettapasztalatokkal rendelkeznek, más dolgokat tartanak fontosnak, és nem feltétlenül ugyanazokat a célokat követik. Ezeket a különbségeket nem hibának tekintem, és nem célom, hogy a hallgatók mindenben azonosuljanak a nézeteimmel. Az oktatás azonban közös munka, amelyhez mindkét fél szándéka és részvétele szükséges.
+
+Különösen fontosnak tartom a hexagramban megjelenő molesztálás gondolatát. Nem az őszinte kíváncsiságból fakadó ismételt kérdezésre vagy a tanár véleményének megkérdőjelezésére gondolok, hanem arra, amikor a tanuló a tanárra gyakorolt nyomással próbálja elérni azt, amit a saját tanulási folyamatában végzett munkával kellene elérnie. A nyomásgyakorlás megváltoztathatja a tanár döntését, ha enged neki, de a tudást és a képességeket nem pótolhatja. Az oktatás célja ilyen módon nem valósulhat meg.
+
+Ha a másik fél úgy dönt, hogy nem kíván partner lenni az oktatásban, inkább elfogadom ezt a döntését, mintsem megpróbáljam mindenáron megváltoztatni. Nem büntetésből, sértettségből vagy bosszúból teszem ezt, hanem annak felismeréséből, hogy más helyett nem tanulhatok, és a tanulás szándékát sem kényszeríthetem ki. Tiszteletben tarthatom a másik döntését anélkül, hogy közben feladnám saját oktatói és szakmai elveimet. Ha később mégis kész a közös munkára, annak lehetőségét nem zárom ki. Ugyanez a gondolat jelenik meg a [[artes-meae/mentor-metta/index|Mentor Mettában]] is: „Megmutatom az utat, ha kérik, de elfogadom, ha más irányba indulnak.” Számomra a hexagram tanítása ebben az értelemben nem a tanári tekintély érvényesítéséről, hanem a türelemről, a határok megtartásáról és az elengedés bölcsességéről szól.
+
+Az alábbiakban a hexagram ítéletét és Richard Wilhelm magyarázatának magyar változatát idézem.
 
 > A fiatalkori bohóság sikeres. Nem én keresem a balga ifjút, a balga ifjú keres engem.
 > Az első jóslásnál felvilágosítom. Ha kétszer, vagy háromszor kérdez, az már molesztálás.
