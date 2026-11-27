@@ -7,3 +7,5 @@ I teach software engineering at the University of Szeged. My educational interes
 My approach to education is described in [[artes-meae/ars-paedagogiae|Ars Paedagogiae: The Art of Education]], with an emphasis on mentoring, practical experience and the transfer of tacit knowledge.
 
 The [[teaching/experience|Teaching experience]] page presents my educational portfolio, including university courses and extracurricular programmes for primary and secondary school pupils.
+
+For doctoral students and other research mentees, [[teaching/phd/how-i-write-reviews|How I Write Reviews]] presents my practical approach to reviewing scientific papers, from choosing a paper and taking notes to discussing and writing the final assessment.
