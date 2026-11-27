@@ -8,16 +8,23 @@ Az általam oktatott hallgatók személyes megbeszélésre egyeztethetnek velem 
 
 Az időpont egyeztetéséhez [e-mailben keressetek](mailto:geryxyz@inf.u-szeged.hu). A levélben adjátok meg:
 
-- Melyik kurzusra jártok.
+- Melyik kurzushoz, szakdolgozathoz, diplomamunkához vagy szakmai gyakorlathoz kapcsolódik a megbeszélés.
 - Milyen témában szeretnétek egyeztetni.
 - Néhány olyan időpontot, amely számotokra megfelelő.
 
 Ha több hallgató közös témában szeretne egyeztetni, elegendő, ha egyikük kér időpontot, és megadja a többi résztvevő nevét is.
 
-Egyéb megállapodás hiányában a kurzusokhoz kapcsolódó megbeszélések személyesen történnek. A helyszínt az időpont egyeztetésekor pontosítsuk.
+A kurzusokhoz kapcsolódó konzultációk minden esetben személyesen történnek.
 
 ## Szakdolgozati és diplomamunka-konzultációk
 
-Azok a hallgatók, akikkel már megkezdtük a közös munkát a szakdolgozaton vagy a diplomamunkán, egyeztethetnek időpontot a folyamatban lévő munkával kapcsolatban. A megbeszélések mindig élőszóban történnek, online vagy személyesen.
+A szakdolgozati és diplomamunka-konzultációkra, valamint a szakmai gyakorlatra azonos szabályok vonatkoznak. Az első megbeszélés minden esetben személyesen, előzetesen egyeztetett időpontban történik. A további konzultációk személyesen vagy online, Discordon keresztül is tarthatók. A megbeszélések mindkét esetben élőszóban történnek.
 
-Az új jelentkezőket külön, előzetesen egyeztetett időpontban fogadom.
+## Helyszínek
+
+Szegedi Tudományegyetem, Szoftverfejlesztés Tanszék:
+
+- Kurzusokhoz kapcsolódó konzultációk: Dugonics tér 13., 145-ös iroda.
+- Szakdolgozati, diplomamunka- és szakmai gyakorlat konzultációk: Árpád tér 2., 13-as iroda.
+
+A megbeszélés helyszínét az időpont egyeztetésekor pontosítsuk.
