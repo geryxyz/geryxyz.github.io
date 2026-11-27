@@ -11,3 +11,5 @@ The [[teaching/experience|Teaching experience]] page presents my educational por
 For doctoral students and other research mentees, [[teaching/phd/how-i-write-reviews|How I Write Reviews]] presents my practical approach to reviewing scientific papers, from choosing a paper and taking notes to discussing and writing the final assessment.
 
 Students can find information about arranging an appointment and finding a suitable time in [[teaching/consultations|Student consultations]].
+
+I supervise BSc and MSc theses and internships. My [[teaching/supervision|supervision guidelines and application procedure]] explain the expectations for thesis work and how to apply.
