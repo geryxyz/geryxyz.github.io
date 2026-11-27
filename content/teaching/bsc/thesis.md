@@ -11,3 +11,5 @@ semesters:
 ---
 
 For arranging meetings during thesis supervision, see [[teaching/consultations#Thesis consultations|Thesis consultations]].
+
+See my [[teaching/supervision|supervision guidelines and application procedure]] for expectations, topic selection and applying.

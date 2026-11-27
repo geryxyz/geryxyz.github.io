@@ -20,6 +20,8 @@ A kurzusokhoz kapcsolódó konzultációk minden esetben személyesen történne
 
 A szakdolgozati és diplomamunka-konzultációkra, valamint a szakmai gyakorlatra azonos szabályok vonatkoznak. Az első megbeszélés minden esetben személyesen, előzetesen egyeztetett időpontban történik. A további konzultációk személyesen vagy online, Discordon keresztül is tarthatók. A megbeszélések mindkét esetben élőszóban történnek.
 
+A dolgozati témaválasztásról, a jelentkezésről és a témavezetés során támasztott elvárásokról a [[teaching/supervision.hu|Szakdolgozat, diplomamunka és szakmai gyakorlat témavezetése]] oldalon található információ.
+
 ## Helyszín
 
 Minden személyes konzultáció helyszíne: Szegedi Tudományegyetem, Szoftverfejlesztés Tanszék, [Árpád tér 2.](https://www.google.com/maps/search/?api=1&query=%C3%81rp%C3%A1d%20t%C3%A9r%202%2C%206720%20Szeged%2C%20Hungary), 13-as iroda.
