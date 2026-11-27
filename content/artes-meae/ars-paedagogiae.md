@@ -16,6 +16,17 @@ Mentoring is particularly vital when it comes to bridging the gap between explic
 
 Ultimately, education serves as the starting point for professional development, but it is also a continuous process. The structured transmission of explicit knowledge provides the foundation, but it is the mentoring relationship—where tacit knowledge is shared and human connections are built—that transforms learning into mastery. This mastery is not confined to theoretical understanding; it is deeply practical, enabling individuals to adapt, innovate, and thrive in the real world.
 
+## Teaching principles
+
+These Hungarian-language notes explore practical and ethical aspects of my educational philosophy, including the responsibilities of teachers and learners and the role of assessment.
+
+*Az itt közölt nézetek szigorúan magán véleményem és nem minősíti vagy képviseli semelyik intézmény véleményét, melynek tagja vagyok.*
+
+- [[artes-meae/youthful-folly.hu|蒙, ䷃; A balga gyermek]]
+- [[artes-meae/captain-and-crew.hu|A kapitányt szolgálom, de kiállok a legénységért]]
+- [[artes-meae/honest-grading.hu|Sose csapom be a hallgatót nem-megalapozott érdemjeggyel]]
+- [[artes-meae/responsibility-for-assessment.hu|Az értékelés és osztályozás a tanár feladata]]
+
 ## Mentor Metta
 
 [[artes-meae/mentor-metta/index|Mentor Metta]] expresses my mentoring philosophy through a poem inspired by the Metta Sutta, its elaboration, and practical cases from my teaching.
