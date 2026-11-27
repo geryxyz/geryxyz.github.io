@@ -20,11 +20,6 @@ Course-related consultations always take place in person.
 
 The same consultation rules apply to BSc and MSc theses and internships. The initial meeting must always take place in person and be arranged in advance. Subsequent consultations may take place in person or online via Discord. In either case, consultations are spoken discussions.
 
-## Locations
+## Location
 
-Department of Software Engineering, University of Szeged:
-
-- Course consultations: Dugonics tér 13, office 145.
-- Thesis and internship consultations: Árpád tér 2, office 13.
-
-Confirm the meeting location when arranging the appointment.
+All in-person consultations take place at the Department of Software Engineering, University of Szeged, Árpád tér 2, office 13.

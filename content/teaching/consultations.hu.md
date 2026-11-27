@@ -20,11 +20,6 @@ A kurzusokhoz kapcsolódó konzultációk minden esetben személyesen történne
 
 A szakdolgozati és diplomamunka-konzultációkra, valamint a szakmai gyakorlatra azonos szabályok vonatkoznak. Az első megbeszélés minden esetben személyesen, előzetesen egyeztetett időpontban történik. A további konzultációk személyesen vagy online, Discordon keresztül is tarthatók. A megbeszélések mindkét esetben élőszóban történnek.
 
-## Helyszínek
+## Helyszín
 
-Szegedi Tudományegyetem, Szoftverfejlesztés Tanszék:
-
-- Kurzusokhoz kapcsolódó konzultációk: Dugonics tér 13., 145-ös iroda.
-- Szakdolgozati, diplomamunka- és szakmai gyakorlat konzultációk: Árpád tér 2., 13-as iroda.
-
-A megbeszélés helyszínét az időpont egyeztetésekor pontosítsuk.
+Minden személyes konzultáció helyszíne: Szegedi Tudományegyetem, Szoftverfejlesztés Tanszék, Árpád tér 2., 13-as iroda.
