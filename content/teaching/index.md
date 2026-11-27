@@ -9,3 +9,5 @@ My approach to education is described in [[artes-meae/ars-paedagogiae|Ars Paedag
 The [[teaching/experience|Teaching experience]] page presents my educational portfolio, including university courses and extracurricular programmes for primary and secondary school pupils.
 
 For doctoral students and other research mentees, [[teaching/phd/how-i-write-reviews|How I Write Reviews]] presents my practical approach to reviewing scientific papers, from choosing a paper and taking notes to discussing and writing the final assessment.
+
+Students can find information about arranging an appointment and finding a suitable time in [[teaching/consultations|Student consultations]].

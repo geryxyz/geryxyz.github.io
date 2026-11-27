@@ -9,3 +9,5 @@ semesters:
   - "2021/22 spring"
   - "2022/23 autumn"
 ---
+
+For arranging meetings during thesis supervision, see [[teaching/consultations#Thesis consultations|Thesis consultations]].
