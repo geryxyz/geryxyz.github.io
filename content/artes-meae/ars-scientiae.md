@@ -14,6 +14,9 @@ Collaboration is another cornerstone of successful research. Much like mentoring
 
 The interplay between education, industry, and research can be complex, with shifting priorities and competing demands. However, what resonates with me most is the creative freedom that research provides—the ability to explore ideas without the constraints of immediate practical goals or rigid expectations. Research allows me to express my intellectual curiosity in its purest form, to delve into problems that may not have easy answers, and to create knowledge that extends beyond my own understanding. Ultimately, Ars Scientiae is about the journey of discovery, the exploration of ideas, and the fulfillment that comes from forging one's own path.
 
+
+A practical example of how I approach collaboration, scientific judgment, and mentoring is [[teaching/phd/how-i-write-reviews|How I Write Reviews]], my guide to peer review for research mentees.
+
 ---
 
 Part of [[artes-meae/index|Artes Meae: Crafting My Path in Software Engineering and Academia]], where the three arts come together and the shared [[artes-meae/index#references|references]] are listed.
