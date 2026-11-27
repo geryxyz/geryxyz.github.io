@@ -22,4 +22,4 @@ A szakdolgozati és diplomamunka-konzultációkra, valamint a szakmai gyakorlatr
 
 ## Helyszín
 
-Minden személyes konzultáció helyszíne: Szegedi Tudományegyetem, Szoftverfejlesztés Tanszék, Árpád tér 2., 13-as iroda.
+Minden személyes konzultáció helyszíne: Szegedi Tudományegyetem, Szoftverfejlesztés Tanszék, [Árpád tér 2.](https://www.google.com/maps/search/?api=1&query=%C3%81rp%C3%A1d%20t%C3%A9r%202%2C%206720%20Szeged%2C%20Hungary), 13-as iroda.

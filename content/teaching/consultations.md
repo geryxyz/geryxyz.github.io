@@ -22,4 +22,4 @@ The same consultation rules apply to BSc and MSc theses and internships. The ini
 
 ## Location
 
-All in-person consultations take place at the Department of Software Engineering, University of Szeged, Árpád tér 2, office 13.
+All in-person consultations take place at the Department of Software Engineering, University of Szeged, [Árpád tér 2](https://www.google.com/maps/search/?api=1&query=%C3%81rp%C3%A1d%20t%C3%A9r%202%2C%206720%20Szeged%2C%20Hungary), office 13.
